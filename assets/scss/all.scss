@@ -6,6 +6,7 @@
 @import "./utils/utilities";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
 @import "./base/font";
 @import "./base/icon";
 
@@ -13,5 +14,6 @@
 @import "./layout/footer.scss";
 
 @import "./components/bg";
+@import "./components/text-overflow";
 
 @import "./pages/index.scss";

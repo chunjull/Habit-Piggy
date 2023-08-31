@@ -9,9 +9,37 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <div class="contianer"></div>
+    <div class="container py-11 py-lg-16">
+      <div class="row justify-content-center">
+        <div class="col-md-10 border-bottom border-black border-2">
+          <h2 class="fs-5 fs-lg-1 text-center fw-bold mb-7 mb-lg-11">推薦文章</h2>
+        </div>
+      </div>
+      <div class="card border-0 bg-transparent my-7 my-lg-11">
+        <div class="row g-0 justify-content-center">
+          <div class="col-md-1 d-none d-md-block">
+            <p class="fs-6 text-darkgray mb-0 pb-1">AUG</p>
+            <div class="border border-darkgray" style="width: 24px;"></div>
+            <p class="fs-1 fw-bold text-darkgray mb-0">28</p>
+          </div>
+          <div class="col-md-3">
+            <img src="../assets/images/cat.jpg" class="img-fluid w-100" alt="..." style="height: 247px;">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body px-0 ps-md-7 pe-md-5">
+              <h5 class="card-title fs-5 fs-lg-3 fw-bold text-overflow mb-0 mb-lg-7">《原子習慣》用４個步驟幫你打造更好版本的自己</h5>
+              <p class="card-text fs-6 pb-5 border-bottom border-black mb-5 d-none d-md-block">每個人都有自己的目標與願望，但要達成這些目標並不總是容易的事情。我們往往會在改變的路上遇到困難，可能會失去動力，甚至回到過去的舊習慣中。然而，詹姆斯・克利爾（James Clear）的《⋯⋯</p>
+              <div class="d-md-flex justify-content-end d-none">
+                <a href="../pages/article.html" class="card-link text-black fs-6 fw-bold">觀看文章<i class="bi bi-arrow-right text-primary ps-5"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <%- include('./layout/footer'); -%>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>

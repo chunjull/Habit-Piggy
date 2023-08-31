@@ -312,6 +312,7 @@ $fourth:        #FFD74C !default; //primary 60
 $fifth:         #FFCF26 !default; //primary 80
 $black:         $black !default;
 $white:         $white !default;
+$darkgray:      #525252 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -323,7 +324,13 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "tertiary":   $tertiary,
+  "fourth":     $fourth,
+  "fifth":      $fifth,
+  "black":      $black,
+  "white":      $white,
+  "darkgray":   $darkgray,
 ) !default;
 // scss-docs-end theme-colors-map
 

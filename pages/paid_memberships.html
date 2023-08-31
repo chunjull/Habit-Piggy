@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habit Piggy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container py-11 py-lg-16">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="mb-7 mb-lg-11">
+                    <h3 class="fs-5 fs-lg-4 mb-5">您的訂閱</h3>
+                    <div class="text-center bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
+                        <p class="fs-6 fs-lg-5 mb-3">每月 NT$109</p>
+                        <p class="fs-7 fs-lg-6 mb-0">你的方案將在 2023/10/17 自動續約，屆時您將被收取 NT$ 109</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="fs-5 fs-lg-4 mb-5">您的訂閱</h3>
+                    <div class="bg-white rounded-1 py-5 px-7 py-lg-7 px-lg-9">
+                        <p class="fs-7 fs-lg-6 fw-bold mb-3">Habit Piggy 免費版</p>
+                        <p class="fs-7 fs-lg-6 mb-3">只能同時培養最多三個習慣、無法自訂習慣頻率，也無法享受圖表分析服務。</p>
+                        <p class="fs-8 fs-lg-7 mb-0 text-darkgray">變更為免費版將會取消您的訂閱項目。</p>
+                        <div class="d-flex justify-content-center justify-content-lg-end mt-9 mt-lg-11">
+                            <button type="button" class="btn btn-outline-warning fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" data-bs-toggle="modal" data-bs-target="#unsubscribe">取消訂閱</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="unsubscribe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-white">
+                <div class="modal-header border-0 px-7">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center px-7">
+                    <p class="fs-5 mb-0">您是否確認取消訂閱？</p>
+                </div>
+                <div class="modal-footer justify-content-center border-0 px-7 pt-0 pb-7">
+                    <button type="button" class="btn btn-outline-warning py-3 px-8" data-bs-dismiss="modal">是</button>
+                    <button type="button" class="btn btn-warning py-3 px-8">否</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
