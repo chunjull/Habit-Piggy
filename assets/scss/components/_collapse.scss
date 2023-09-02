@@ -1,0 +1,55 @@
+button.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+
+.accordion {
+  border-top: 4px solid $primary;
+  border-bottom: 1px solid $primary;
+  @media (min-width: 768px) {
+    border-top: 6px solid $primary;
+  }
+}
+
+.accordion-body {
+  padding-top: 0px !important;
+  @media (min-width: 768px) {
+    padding: 0 1.25rem 2.25rem 1.25rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .accordion-button {
+    padding: 1.5rem 1.25rem !important;
+  }
+
+  .accordion-button::after {
+    width: 48px !important;
+    height: 48px !important;
+    background-size: 48px !important;
+  }
+}
+
+
+.accordion-button::before {
+  content: 'Q';
+  font-weight: 900;
+  font-size: 24px;
+  color: $primary;
+  margin-right: 12px;
+  @media (min-width: 768px) {
+    font-size: 48px;
+    margin-right: 30px;
+  }
+}
+
+.accordion-body::before {
+  content: 'A';
+  font-weight: 900;
+  font-size: 24px;
+  color: $secondary;
+  margin-right: 12px;
+  @media (min-width: 768px) {
+    font-size: 48px;
+    margin-right: 30px;
+  }
+}
