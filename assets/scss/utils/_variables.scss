@@ -440,7 +440,7 @@ $spacers: (
   15: $spacer * 4.5, //72px
   16: $spacer * 5, //80px
   17: $spacer * 6, //96px
-  18: $spacer * 10, //160px
+  18: $spacer * 10, //160px // custom
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -451,7 +451,7 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
-  25: 25%,
+  25: 25%, // custom
   50: 50%,
   100: 100%
 ) !default;
@@ -1420,7 +1420,7 @@ $accordion-icon-width:                    1.5rem !default; // custom
 $accordion-icon-color:                    $primary !default; // custom
 $accordion-icon-active-color:             $primary-text-emphasis !default;
 $accordion-icon-transition:               transform .2s ease-in-out !default;
-$accordion-icon-transform:                rotate(-45deg) !default;
+$accordion-icon-transform:                rotate(-45deg) !default; // custom
 
 $accordion-button-icon: url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M36 26H26V36C26 37.1 25.1 38 24 38C22.9 38 22 37.1 22 36V26H12C10.9 26 10 25.1 10 24C10 22.9 10.9 22 12 22H22V12C22 10.9 22.9 10 24 10C25.1 10 26 10.9 26 12V22H36C37.1 22 38 22.9 38 24C38 25.1 37.1 26 36 26Z\" fill=\"#FFB800\"/></svg>") !default; // custom
 $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M36 26H26V36C26 37.1 25.1 38 24 38C22.9 38 22 37.1 22 36V26H12C10.9 26 10 25.1 10 24C10 22.9 10.9 22 12 22H22V12C22 10.9 22.9 10 24 10C25.1 10 26 10.9 26 12V22H36C37.1 22 38 22.9 38 24C38 25.1 37.1 26 36 26Z\" fill=\"#FFB800\"/></svg>") !default; // custom
