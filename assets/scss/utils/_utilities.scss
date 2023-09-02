@@ -94,7 +94,8 @@ $utilities: map-merge(
     // scss-docs-end utils-focus-ring
     // scss-docs-start utils-position
     "position": (
-      property: position,
+      property: position, // custom
+      responsive: true,
       values: static relative absolute fixed sticky
     ),
     "top": (
@@ -222,6 +223,7 @@ $utilities: map-merge(
       values: (100: 100vw)
     ),
     "height": (
+      responsive: true, // custom
       property: height,
       class: h,
       values: (
