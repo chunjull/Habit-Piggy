@@ -440,6 +440,7 @@ $spacers: (
   15: $spacer * 4.5, //72px
   16: $spacer * 5, //80px
   17: $spacer * 6, //96px
+  18: $spacer * 10, //160px
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -450,6 +451,7 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  25: 25%,
   50: 50%,
   100: 100%
 ) !default;
