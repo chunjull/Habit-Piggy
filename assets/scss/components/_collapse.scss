@@ -32,7 +32,7 @@ button.accordion-button:not(.collapsed) {
 
 .accordion-button::before {
   content: 'Q';
-  font-weight: 900;
+  font-weight: 700;
   font-size: 24px;
   color: $primary;
   margin-right: 12px;
@@ -44,7 +44,7 @@ button.accordion-button:not(.collapsed) {
 
 .accordion-body::before {
   content: 'A';
-  font-weight: 900;
+  font-weight: 700;
   font-size: 24px;
   color: $secondary;
   margin-right: 12px;
