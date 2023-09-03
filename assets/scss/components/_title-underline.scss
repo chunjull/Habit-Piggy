@@ -1,0 +1,15 @@
+.title-underline {
+  display: inline-block;
+  &::after {
+    content: "";
+    display: block;
+    height: 12px;
+    background-color: $primary;
+    margin: -12px 8px 0 -8px;
+    @media (min-width: 768px) {
+      height: 24px;
+      margin: -24px 16px 0 -16px;
+    }
+  }
+  
+}
