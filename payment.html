@@ -39,46 +39,78 @@
         </div>
     </div>
 </header>    <div class="container py-11 py-lg-16">
+        <div class="row mb-7 mb-lg-11">
+            <div class="col-lg-8 mx-auto">
+                <ol class="pay-list mt-5 d-flex justify-content-between list-unstyled position-relative">
+                    <li class="d-flex flex-column align-items-center">
+                        <p class="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">1</p>
+                        <p class="fs-8 text-darkgray mt-1 mb-0">訂單確認</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center">
+                        <p class="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">2</p>
+                        <p class="fs-8 text-darkgray mt-1 mb-0">信用卡付款</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center">
+                        <p class="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center mb-0">3</p>
+                        <p class="fs-8 text-darkgray mt-1 mb-0">付款成功</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="mb-7 mb-lg-11">
-                    <h3 class="fs-5 fs-lg-4 mb-5">您的訂閱</h3>
-                    <div class="text-center bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
-                        <p class="fs-6 fs-lg-5 mb-3">每月 NT$109</p>
-                        <p class="fs-7 fs-lg-6 mb-0">你的方案將在 2023/10/17 自動續約，屆時您將被收取 NT$ 109</p>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="fs-5 fs-lg-4 mb-5">您的訂閱</h3>
-                    <div class="bg-white rounded-1 py-5 px-7 py-lg-7 px-lg-9">
-                        <p class="fs-7 fs-lg-6 fw-bold mb-3">Habit Piggy 免費版</p>
-                        <p class="fs-7 fs-lg-6 mb-3">只能同時培養最多三個習慣、無法自訂習慣頻率，也無法享受圖表分析服務。</p>
-                        <p class="fs-8 fs-lg-7 mb-0 text-darkgray">變更為免費版將會取消您的訂閱項目。</p>
-                        <div class="d-flex justify-content-center justify-content-lg-end mt-9 mt-lg-11">
-                            <button type="button" class="btn btn-outline-warning fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" data-bs-toggle="modal" data-bs-target="#unsubscribe">取消訂閱</button>
+                    <div class="bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="fs-7 fs-lg-6 mb-0">月費</p>
+                                <p class="fs-8 fs-lg-7 text-darkgray mb-0">開始計費日期：2023 年 09 月 17 日</p>
+                            </div>
+                            <p class="fs-6 fs-lg-5 mb-0">每月 NT$109</p>
+                        </div>
+                        <div class="border border-bottom border-primary my-5"></div>
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-7 fs-lg-6 mb-0">今日應付金額</p>
+                            <p class="fs-6 fs-lg-5 mb-0">每月 NT$109</p>
                         </div>
                     </div>
+                </div>
+                <div class="mb-7 mb-lg-11">
+                    <h4 class="fs-6 fs-lg-5 fw-bold text-center mb-5 mb-lg-7">請輸入信用卡資訊進行付款</h4>
+                    <form>
+                        <div class="mb-3 mb-lg-5 row">
+                            <label for="creditCard" class="col-sm-3 col-form-label fs-6 fs-lg-5">信用卡帳號</label>
+                            <div class="col-sm-9">
+                                <input type="tel" class="form-control border-0 bg-white fs-6 py-3" id="creditCard" placeholder="0000 0000 0000 0000" size="18" minlength="19" maxlength="19">
+                            </div>
+                        </div>
+                        <div class="mb-3 mb-lg-5 row">
+                            <label for="expiryDate" class="col-sm-3 col-form-label fs-6 fs-lg-5">有效日期</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control border-0 bg-white fs-6 py-3" id="expiryDate" placeholder="MM/YY">
+                            </div>
+                        </div>
+                        <div class="mb-3 mb-lg-5 row">
+                            <label for="cvv" class="col-sm-3 col-form-label fs-6 fs-lg-5">安全碼</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control border-0 bg-white fs-6 py-3" id="cvv" placeholder="***">
+                            </div>
+                        </div>
+                        <div class="mb-3 mb-lg-5 row">
+                            <label for="userName" class="col-sm-3 col-form-label fs-6 fs-lg-5">持卡人姓名</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control border-0 bg-white fs-6 py-3" id="userName" placeholder="請輸入持卡人姓名">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" href="../pages/receipt.html" role="button">確認付款</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="unsubscribe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-white">
-                <div class="modal-header border-0 px-7">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center px-7">
-                    <p class="fs-5 mb-0">您是否確認取消訂閱？</p>
-                </div>
-                <div class="modal-footer justify-content-center border-0 px-7 pt-0 pb-7">
-                    <button type="button" class="btn btn-outline-warning py-3 px-8" data-bs-dismiss="modal">是</button>
-                    <button type="button" class="btn btn-warning py-3 px-8">否</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <footer class="footer">
     <div class="bg-primary">
         <div class="container py-7 text-center">
