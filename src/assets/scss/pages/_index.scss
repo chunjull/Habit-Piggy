@@ -1,0 +1,38 @@
+.index-title {
+  font-size: 100px;
+}
+
+.banner {
+  background-image: url(../images/banner-sm.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc( 100vh - 80px );
+  @media (min-width: 768px) {
+    background-image: url(../images/banner.png);
+  }
+}
+
+.bg-custom {
+  background-image: url(../images/bg-custom-sm-removebg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-width: 768px) {
+    background-image: url(../images/bg-custom-removebg.png);
+  }
+}
+
+
+.about-img {
+  height: 351px;
+  width: 351px;
+  position: absolute;
+  left: -25%;
+  @media (min-width: 768px) {
+    position: relative;
+    left: 0;
+    height: auto;
+    width: auto;
+  }
+}
