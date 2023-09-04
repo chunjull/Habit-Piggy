@@ -22,7 +22,7 @@
                         <p class="fs-8 text-darkgray mt-1 mb-0">信用卡付款</p>
                     </li>
                     <li class="d-flex flex-column align-items-center">
-                        <p class="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center mb-0">3</p>
+                        <p class="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">3</p>
                         <p class="fs-8 text-darkgray mt-1 mb-0">付款成功</p>
                     </li>
                 </ol>
@@ -31,6 +31,10 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="mb-7 mb-lg-11">
+                    <div class="text-center text-lg-start">
+                        <h3 class="fs-5 fs-lg-4 mb-3">訂購成功</h3>
+                        <p class="fs-lg-6">以下為您的訂單細節：</p>
+                    </div>
                     <div class="bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
                         <div class="d-flex justify-content-between">
                             <div>
@@ -41,42 +45,13 @@
                         </div>
                         <div class="border border-bottom border-primary my-5"></div>
                         <div class="d-flex justify-content-between">
-                            <p class="fs-7 fs-lg-6 mb-0">今日應付金額</p>
-                            <p class="fs-6 fs-lg-5 mb-0">每月 NT$109</p>
+                            <p class="fs-7 fs-lg-6 mb-0">付款金額</p>
+                            <p class="fs-6 fs-lg-5 mb-0">NT$109</p>
                         </div>
                     </div>
                 </div>
-                <div class="mb-7 mb-lg-11">
-                    <h4 class="fs-6 fs-lg-5 fw-bold text-center mb-5 mb-lg-7">請輸入信用卡資訊進行付款</h4>
-                    <form>
-                        <div class="mb-3 mb-lg-5 row">
-                            <label for="creditCard" class="col-sm-3 col-form-label fs-6 fs-lg-5">信用卡帳號</label>
-                            <div class="col-sm-9">
-                                <input type="tel" class="form-control border-0 bg-white fs-6 py-3" id="creditCard" placeholder="0000 0000 0000 0000" size="18" minlength="19" maxlength="19">
-                            </div>
-                        </div>
-                        <div class="mb-3 mb-lg-5 row">
-                            <label for="expiryDate" class="col-sm-3 col-form-label fs-6 fs-lg-5">有效日期</label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control border-0 bg-white fs-6 py-3" id="expiryDate" placeholder="MM/YY">
-                            </div>
-                        </div>
-                        <div class="mb-3 mb-lg-5 row">
-                            <label for="cvv" class="col-sm-3 col-form-label fs-6 fs-lg-5">安全碼</label>
-                            <div class="col-sm-9">
-                                <input type="password" class="form-control border-0 bg-white fs-6 py-3" id="cvv" placeholder="***">
-                            </div>
-                        </div>
-                        <div class="mb-3 mb-lg-5 row">
-                            <label for="userName" class="col-sm-3 col-form-label fs-6 fs-lg-5">持卡人姓名</label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control border-0 bg-white fs-6 py-3" id="userName" placeholder="請輸入持卡人姓名">
-                            </div>
-                        </div>
-                    </form>
-                </div>
                 <div class="d-flex justify-content-center">
-                    <a class="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" href="../pages/receipt.html" role="button">確認付款</a>
+                    <a class="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" href="../pages/today.html" role="button">立即養成習慣</a>
                 </div>
             </div>
         </div>
