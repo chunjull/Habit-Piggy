@@ -1,0 +1,52 @@
+
+
+.typewriter1 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing1 3.5s steps(30, end),
+    blink-caret .5s step-end infinite,
+    blink-caret-hidden 1s 3.5s 1 forwards;
+}
+
+.typewriter2 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    delay2 3.5s, 
+    typing2 3.5s steps(30, end) 3.5s,
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing1 {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes typing2 {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+@keyframes blink-caret-hidden {
+  0%, 100% { border-color: transparent }
+  50% { border-color: transparent }
+}
+
+
+@keyframes delay2 {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0; } 
+}

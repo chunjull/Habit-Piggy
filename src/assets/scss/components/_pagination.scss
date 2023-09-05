@@ -1,0 +1,20 @@
+.page-item {
+    .page-link {
+        color: $secondary;
+        font-weight: bold;
+        background: transparent;
+        line-height: 1;
+        border: none;
+        border-radius: 50rem;
+
+        &:hover {
+            color: $white;
+            background-color: $primary;
+        }
+    }
+
+    .page-link.active {
+        color: $white;
+        background-color: $primary;
+    }
+}

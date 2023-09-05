@@ -1,0 +1,32 @@
+.number {
+    color: $primary;
+    border-radius: 8px;
+    padding: 4px 12px;
+    border: 1px solid $primary;
+    background-color: $white;
+    z-index: 1;
+}
+
+@media (min-width: 992px){
+    .number {
+        padding: 4px 16px;
+    }
+}
+
+.number-active {
+    color: $white;
+    background-color: $primary;
+}
+
+.pay-list::before {
+    width: 90%;
+    height: 2px;
+    content: "";
+    background-color: $primary;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
