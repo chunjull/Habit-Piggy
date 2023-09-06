@@ -9,6 +9,7 @@ import Receipt from "./pages/Receipt";
 import Subscribe from "./pages/Subscribe";
 import Articles from "./pages/Articles";
 import Article from "./pages/Article";
+import Membership from "./pages/Membership";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Subscribe" element={<Subscribe />} />
           <Route path="/Articles" element={<Articles />} />
           <Route path="/Article" element={<Article />} />
+          <Route path="/Membership" element={<Membership />} />
         </Route>
       </Routes>
     </div>

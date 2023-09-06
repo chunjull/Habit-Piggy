@@ -16,7 +16,7 @@ const Articles = () => {
                   <p className="fs-1 text-darkgray fw-bold mb-0">28</p>
                 </div>
                 <div className="col-lg-4 mb-5 mb-lg-0">
-                  <img src="../../assets/images/article-1.jpg" className="w-100" alt="article picture" />
+                  <img src="https://images.unsplash.com/photo-1466193341027-56e68017ee2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" className="w-100" alt="article picture" />
                 </div>
                 <div className="col-lg-7">
                   <div className="card-body p-0 px-lg-5">
@@ -40,7 +40,7 @@ const Articles = () => {
                   <p className="fs-1 text-darkgray fw-bold mb-0">07</p>
                 </div>
                 <div className="col-lg-4 mb-5 mb-lg-0">
-                  <img src="../../assets/images/article-2.jpg" className="w-100" alt="article picture" />
+                  <img src="https://images.unsplash.com/photo-1683009427513-28e163402d16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" className="w-100" alt="article picture" />
                 </div>
                 <div className="col-lg-7">
                   <div className="card-body p-0 px-lg-5">
@@ -64,7 +64,7 @@ const Articles = () => {
                   <p className="fs-1 text-darkgray fw-bold mb-0">23</p>
                 </div>
                 <div className="col-lg-4 mb-5 mb-lg-0">
-                  <img src="../../assets/images/article-3.jpg" className="w-100" alt="article picture" />
+                  <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" className="w-100" alt="article picture" />
                 </div>
                 <div className="col-lg-7">
                   <div className="card-body p-0 px-lg-5">
@@ -88,7 +88,7 @@ const Articles = () => {
                   <p className="fs-1 text-darkgray fw-bold mb-0">12</p>
                 </div>
                 <div className="col-lg-4 mb-5 mb-lg-0">
-                  <img src="../../assets/images/article-4.jpg" className="w-100" alt="article picture" />
+                  <img src="https://images.unsplash.com/photo-1515847049296-a281d6401047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" className="w-100" alt="article picture" />
                 </div>
                 <div className="col-lg-7">
                   <div className="card-body p-0 px-lg-5">
