@@ -7,6 +7,7 @@ import Checkout from "./pages/Checkout";
 import Payment from "./pages/Payment";
 import Receipt from "./pages/Receipt";
 import Subscribe from "./pages/Subscribe";
+import Articles from "./pages/Articles";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Payment" element={<Payment />} />
           <Route path="/Receipt" element={<Receipt />} />
           <Route path="/Subscribe" element={<Subscribe />} />
+          <Route path="/Articles" element={<Articles />} />
         </Route>
       </Routes>
     </div>
