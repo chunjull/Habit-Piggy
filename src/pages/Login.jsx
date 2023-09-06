@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 const Login = () => {
   return (
   <>
-    <div className="accountBanner">
+    <div className="loginBanner">
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-2 py-11 py-lg-16">
           <div className="col d-flex flex-column justify-content-center align-items-center align-items-lg-baseline px-13 px-lg-17 mb-7 mb-lg-0">
@@ -22,12 +24,12 @@ const Login = () => {
                   <label htmlFor="loginPassword" className="form-label fs-lg-5 fw-bold text-dark mb-1">Password</label>
                   <input type="password" name="loginPassword" id="loginPassword" className="form-control border-0 bg-white fs-6 fs-lg-5" />
                 </div>
-                <div className="d-flex justify-content-center pb-7 pb-lg-12">
-                  <a href="#" className="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" role="button">登入</a>
+                <div className="pb-7 pb-lg-12">
+                  <Link className="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12" to="/Today">登入</Link>
                 </div>
                 <div className="d-flex justify-content-between border-top border-black pt-5">
                   <p className="fs-8 fs-lg-7">還沒有帳號？</p>
-                  <a href="#" className="fs-8 fs-lg-7 text-black">立即註冊<i className="bi bi-arrow-up-right ms-1"></i></a>
+                  <Link className="fs-8 fs-lg-7 text-black" to="/Register">立即註冊<i className="bi bi-arrow-up-right ms-1"></i></Link>
                 </div>
               </form>
             </div>
