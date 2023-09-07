@@ -14,7 +14,7 @@ const paid_membership = () => {
             </div>
           </div>
           <div>
-            <h3 className="fs-5 fs-lg-4 mb-5">您的訂閱</h3>
+            <h3 className="fs-5 fs-lg-4 mb-5">管理訂閱</h3>
             <div className="bg-white rounded-1 py-5 px-7 py-lg-7 px-lg-9">
               <p className="fs-7 fs-lg-6 fw-bold mb-3">Habit Piggy 免費版</p>
               <p className="fs-7 fs-lg-6 mb-3">只能同時培養最多三個習慣、無法自訂習慣頻率，也無法享受圖表分析服務。</p>
