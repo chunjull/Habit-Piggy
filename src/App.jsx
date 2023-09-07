@@ -12,6 +12,7 @@ import Article from "./pages/Article";
 import Membership from "./pages/Membership";
 import Today from "./pages/Today";
 import Account from "./pages/Account";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Membership" element={<Membership />} />
           <Route path="/Today" element={<Today />} />
           <Route path="/Account" element={<Account />} />
+          <Route path="/Contact" element={<Contact />} />
         </Route>
       </Routes>
     </div>
