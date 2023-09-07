@@ -10,6 +10,7 @@ import Subscribe from "./pages/Subscribe";
 import Articles from "./pages/Articles";
 import Article from "./pages/Article";
 import Membership from "./pages/Membership";
+import Today from "./pages/Today";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/Articles" element={<Articles />} />
           <Route path="/Article" element={<Article />} />
           <Route path="/Membership" element={<Membership />} />
+          <Route path="/Today" element={<Today />} />
         </Route>
       </Routes>
     </div>

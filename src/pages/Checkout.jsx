@@ -43,7 +43,7 @@ const Checkout = () => {
           <div className="d-flex justify-content-center mb-7 mb-lg-11">
             <div className="form-check">
               <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 我同意 Habit Piggy 的 <Link to="#" className="text-darkgray"><u>服務約定條款</u></Link>。
               </label>
             </div>

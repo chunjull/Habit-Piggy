@@ -1,0 +1,21 @@
+.habitTag {
+  color: $white;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+.dailyHabit {
+  background-color: $primary;
+}
+
+.weeklyHabit {
+  background-color: $secondary;
+}
+
+.addHabit {
+  background-color: $success;
+}
+
+.minusHabit {
+  background-color: $warning;
+}
