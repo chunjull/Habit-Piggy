@@ -11,6 +11,7 @@ import Articles from "./pages/Articles";
 import Article from "./pages/Article";
 import Membership from "./pages/Membership";
 import Today from "./pages/Today";
+import Account from "./pages/Account";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Article" element={<Article />} />
           <Route path="/Membership" element={<Membership />} />
           <Route path="/Today" element={<Today />} />
+          <Route path="/Account" element={<Account />} />
         </Route>
       </Routes>
     </div>
