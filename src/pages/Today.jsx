@@ -107,7 +107,7 @@ const Today = () => {
           </button>
         </Link>
       </aside>
-      <main className="container pt-4 py-10">
+      <main className="container pt-4 pb-10 pt-lg-10">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="d-flex justify-content-between align-items-center pb-4 pb-lg-5 border-bottom border-darkgray">

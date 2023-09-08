@@ -107,7 +107,7 @@ const Account = () => {
           </button>
         </Link>
       </aside>
-      <div className="container py-10">
+      <div className="container pt-4 pb-10 pt-lg-10">
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <h3 className="fs-lg-10 fw-bold pb-5 pb-lg-7 mb-5 mb-lg-7 border-bottom border-darkgray">帳號設定</h3>
