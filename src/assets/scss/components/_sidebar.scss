@@ -1,0 +1,25 @@
+.sidebar-nav {
+  color: $black;
+
+  &:hover {
+    color: $black;
+    background-color: $tertiary;
+  }
+  
+  &:active {
+    background-color: $fifth;
+  }
+}
+
+.sidebar-nav.active {
+  background-color: $primary;
+  font-weight: bold;
+  color: $white;
+}
+
+.sidebar-item:active {
+  display: block;
+  color: $black;
+  background-color: $fourth;
+  border-radius: 8px;
+}
