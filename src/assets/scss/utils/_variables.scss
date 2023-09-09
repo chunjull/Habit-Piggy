@@ -312,6 +312,7 @@ $fourth:        #FFD74C !default; //primary 60
 $fifth:         #FFCF26 !default; //primary 80
 $black:         $black !default;
 $white:         $white !default;
+$gray:          #919191 !default;
 $darkgray:      #525252 !default;
 $lightgray:     #F2F2F2 !default;
 // scss-docs-end theme-color-variables
@@ -331,6 +332,7 @@ $theme-colors: (
   "fifth":      $fifth,
   "black":      $black,
   "white":      $white,
+  "gray":       $gray,
   "darkgray":   $darkgray,
   "lightgray":  $lightgray,
 ) !default;

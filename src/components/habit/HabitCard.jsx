@@ -15,9 +15,7 @@ const getHabitTagClass = (habitTag) => {
   }
 };
 
-
-
-const HabitCard = ({ habit }) => {
+const HabitCard = ({ habit, disable }) => {
   return (
     <div
       className="p-7 border border-darkgray border-1 rounded-1"
@@ -49,7 +47,7 @@ const HabitCard = ({ habit }) => {
       </div>
       <div className="d-flex justify-content-between align-items-center mb-md-3">
         <span className="d-block fs-7">習慣期限:</span>
-        <span className="d-block fs-8">{habit["習慣期限"]}</span>
+        <span className="d-block fs-8">{habit["習慣期限起日"]}~{habit["習慣期限迄日"]}</span>
       </div>
       <div className="d-flex justify-content-between align-items-center mb-md-3">
         <span className="d-block fs-7">累積罰款:</span>
@@ -70,7 +68,7 @@ const HabitCard = ({ habit }) => {
       <div className="mt-11 text-end">
         <button
           type="button"
-          className="btn btn-danger py-2 px-4 border-0 text-white rounded-1"
+          className={`btn py-2 px-4 border-0 text-white rounded-1 ${disable ? 'btn-gray' : 'btn-danger' }`}
         >
           <span className="fs-7">刪除習慣</span>
         </button>

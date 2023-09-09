@@ -14,6 +14,7 @@ import Today from "./pages/Today";
 import Account from "./pages/Account";
 import Contact from "./pages/Contact";
 import HabitTarget from "./pages/HabitTarget";
+import HabitHistory from "./pages/HabitHistory";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Account" element={<Account />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/HabitTarget" element={<HabitTarget />} />
+          <Route path="/HabitHistory" element={<HabitHistory />} />
         </Route>
       </Routes>
     </div>
