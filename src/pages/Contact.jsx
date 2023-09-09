@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <aside className="bg-light vh-100 py-10 px-5 d-none d-lg-block" style={{width: '306px',}}>
+      <aside className="sidebar bg-light py-10 px-5 d-none d-lg-block" style={{width: '306px',}}>
         <div className="mb-5">
           <Link to="/Today" className="sidebar-item">
             <button type="button" className="sidebar-nav btn text-start w-100 py-3 px-5 mb-0 border-0 fs-6">
