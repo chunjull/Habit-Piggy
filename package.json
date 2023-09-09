@@ -34,8 +34,10 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.7",
     "react-router-dom": "^6.15.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.61.0",
     "sass-loader": "^13.2.2",
+    "slick-carousel": "^1.8.1",
     "vite-plugin-live-reload": "^3.0.2"
   },
   "homepage": "https://chunjull.github.io/Habit-Piggy"

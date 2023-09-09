@@ -1,4 +1,5 @@
 import aboutImage from '../assets/images/about.jpg';
+import Slick from '../components/slick';
 
 const Home = () => {
   return (
@@ -54,13 +55,17 @@ const Home = () => {
 
     <div className="bg-light">
       <div className="container">
-        <div className="row py-7 py-md-13">
-          <div className="col-12 col-md-10">
-            <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">FEATURES</span></h3>
-            <p className="fs-7 fs-md-3">「Habit Piggy」不僅僅是一個養成習慣的工具，它還提供了強大的追蹤和統計功能。</p>
-          </div>
-          <div className="swipe">
-            TODO: add slick js
+        <div className="row pt-7 pb-12 py-md-13 justify-content-center">
+          <div className="col-12 col-md-10 ">
+            <div className="mb-6 mb-md-11">
+              <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">FEATURES</span></h3>
+              <p className="fs-7 fs-md-3 mb-0">「Habit Piggy」不僅僅是一個養成習慣的工具，它還提供了強大的追蹤和統計功能。</p>
+            </div>
+            <div className="row justify-content-center">
+              <div className="col-8 col-sm-10 col-md-12">
+                <Slick />
+              </div>
+            </div>
           </div>
         </div>
       </div>
