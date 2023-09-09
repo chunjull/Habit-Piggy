@@ -19,3 +19,10 @@
 .minusHabit {
   background-color: $warning;
 }
+
+.habit-card-title {
+  min-width: 96px;
+  @media (min-width: 992px) {
+    min-width: 61px;
+  }
+}

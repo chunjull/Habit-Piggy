@@ -1,4 +1,6 @@
 import aboutImage from '../assets/images/about.jpg';
+import Slick from '../components/slick';
+import MyMasonry from '../components/masonry';
 
 const Home = () => {
   return (
@@ -54,13 +56,17 @@ const Home = () => {
 
     <div className="bg-light">
       <div className="container">
-        <div className="row py-7 py-md-13">
-          <div className="col-12 col-md-10">
-            <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">FEATURES</span></h3>
-            <p className="fs-7 fs-md-3">「Habit Piggy」不僅僅是一個養成習慣的工具，它還提供了強大的追蹤和統計功能。</p>
-          </div>
-          <div className="swipe">
-            TODO: add slick js
+        <div className="row pt-7 pb-12 py-md-13 justify-content-center">
+          <div className="col-12 col-md-10 ">
+            <div className="mb-6 mb-md-11">
+              <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">FEATURES</span></h3>
+              <p className="fs-7 fs-md-3 mb-0">「Habit Piggy」不僅僅是一個養成習慣的工具，它還提供了強大的追蹤和統計功能。</p>
+            </div>
+            <div className="row justify-content-center">
+              <div className="col-8 col-sm-10 col-md-12">
+                <Slick />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -86,8 +92,7 @@ const Home = () => {
               </h4>
               <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  是的，Habit Piggy 提供免費使用的基本版本，讓您開始建立習慣，並享受核心功能。同時，我們也提供付費版，讓訂閱會員享受更多的功能。
                 </div>
               </div>
             </div>
@@ -99,8 +104,7 @@ const Home = () => {
               </h4>
               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  免費版允許您設定最多三個目標習慣，而訂閱會員則可以無限制地新增目標習慣。
                 </div>
               </div>
             </div>
@@ -112,8 +116,7 @@ const Home = () => {
               </h4>
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  未能完成目標的罰款計算取決於您在目標設定時指定的金額和條件。每次未達成目標時，系統將扣除相應金額。
                 </div>
               </div>
             </div>
@@ -125,8 +128,7 @@ const Home = () => {
               </h4>
               <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  除了習慣養成，Habit Piggy還提供圖表分析、自定義習慣執行頻率等高級功能，幫助您更全面地管理和改進您的習慣。
                 </div>
               </div>
             </div>
@@ -138,8 +140,7 @@ const Home = () => {
               </h4>
               <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  要養成習慣，首先在應用程式中設定您的目標習慣。每當您完成一項目標，您將獲得獎勵，但未達成目標時，您將支付罰款。這種積極的激勵機制有助於提高自律性。更多的養成習慣方法可以參閱我們的「推薦文章」。
                 </div>
               </div>
             </div>
@@ -167,12 +168,14 @@ const Home = () => {
           <div className="row">
             <div className="col-md-9">
               <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">RECOMMEND</span></h3>
-              <p className="fs-7 fs-md-3">「Habit Piggy」受到全球數十個國家的使用者歡迎，快來看看我們的用戶推薦評價！</p>
+              <p className="fs-7 fs-md-3 mb-0">「Habit Piggy」受到全球數十個國家的使用者歡迎，快來看看我們的用戶推薦評價！</p>
             </div>
           </div>
         </div>
       </div>
-      TODO: add react masonry layout
+      <div className="mt-6 mt-md-11">
+        <MyMasonry />
+      </div>
     </div>
 
     <div className="text-center my-11 my-md-18">
