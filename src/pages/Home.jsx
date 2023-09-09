@@ -86,8 +86,7 @@ const Home = () => {
               </h4>
               <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  是的，Habit Piggy 提供免費使用的基本版本，讓您開始建立習慣，並享受核心功能。同時，我們也提供付費版，讓訂閱會員享受更多的功能。
                 </div>
               </div>
             </div>
@@ -99,8 +98,7 @@ const Home = () => {
               </h4>
               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  免費版允許您設定最多三個目標習慣，而訂閱會員則可以無限制地新增目標習慣。
                 </div>
               </div>
             </div>
@@ -112,8 +110,7 @@ const Home = () => {
               </h4>
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  未能完成目標的罰款計算取決於您在目標設定時指定的金額和條件。每次未達成目標時，系統將扣除相應金額。
                 </div>
               </div>
             </div>
@@ -125,8 +122,7 @@ const Home = () => {
               </h4>
               <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  除了習慣養成，Habit Piggy還提供圖表分析、自定義習慣執行頻率等高級功能，幫助您更全面地管理和改進您的習慣。
                 </div>
               </div>
             </div>
@@ -138,8 +134,7 @@ const Home = () => {
               </h4>
               <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div className="accordion-body d-flex fs-8 fs-md-4">
-                  是的，你可以隨時取消訂閱Habit Piggy。<br />
-                  我們希望你對我們的服務感到滿意，因此沒有任何長期合約或隱藏費用。你可以在任何時間通過設置中的相應選項來取消訂閱。
+                  要養成習慣，首先在應用程式中設定您的目標習慣。每當您完成一項目標，您將獲得獎勵，但未達成目標時，您將支付罰款。這種積極的激勵機制有助於提高自律性。更多的養成習慣方法可以參閱我們的「推薦文章」。
                 </div>
               </div>
             </div>
