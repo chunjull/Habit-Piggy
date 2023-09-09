@@ -1,5 +1,6 @@
 import aboutImage from '../assets/images/about.jpg';
 import Slick from '../components/slick';
+import MyMasonry from '../components/masonry';
 
 const Home = () => {
   return (
@@ -167,12 +168,14 @@ const Home = () => {
           <div className="row">
             <div className="col-md-9">
               <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">RECOMMEND</span></h3>
-              <p className="fs-7 fs-md-3">「Habit Piggy」受到全球數十個國家的使用者歡迎，快來看看我們的用戶推薦評價！</p>
+              <p className="fs-7 fs-md-3 mb-0">「Habit Piggy」受到全球數十個國家的使用者歡迎，快來看看我們的用戶推薦評價！</p>
             </div>
           </div>
         </div>
       </div>
-      TODO: add react masonry layout
+      <div className="mt-6 mt-md-11">
+        <MyMasonry />
+      </div>
     </div>
 
     <div className="text-center my-11 my-md-18">
