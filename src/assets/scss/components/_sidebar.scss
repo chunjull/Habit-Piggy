@@ -1,3 +1,10 @@
+$header-height: 80px;
+$footer-height: 62px;
+
+.sidebar {
+  min-height: calc(100vh - $header-height - $footer-height);
+}
+
 .sidebar-nav {
   color: $black;
 
