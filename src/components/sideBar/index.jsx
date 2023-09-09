@@ -41,7 +41,7 @@ const Sidebar = () => {
         </button>
 
         <div
-          className="offcanvas offcanvas-top bg-light mvh-100"
+          className="offcanvas offcanvas-top bg-light sidebar"
           tabIndex="-1"
           id="offcanvasSidebarNav"
           aria-labelledby="offcanvasSidebarNavLabel"
@@ -126,7 +126,7 @@ const Sidebar = () => {
         </div>
       </div>
       <aside
-        className="bg-light mvh-100 py-10 px-5 d-none d-lg-block"
+        className="bg-light sidebar py-10 px-5 d-none d-lg-block"
         style={{ width: "306px" }}
       >
         <div className="mb-5">

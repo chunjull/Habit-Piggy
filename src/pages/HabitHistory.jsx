@@ -117,8 +117,8 @@ const HabitHistory = () => {
                     <path
                       d="M1.33398 2H14.6673L9.33398 8.30667V14L6.66732 12.6667V8.30667L1.33398 2Z"
                       stroke="black"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </span>
