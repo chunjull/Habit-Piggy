@@ -8,15 +8,15 @@ const Checkout = () => {
         <div className="col-lg-8 mx-auto">
           <ol className="pay-list mt-5 d-flex justify-content-between list-unstyled position-relative">
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">1</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">1</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">訂單確認</p>
             </li>
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center mb-0">2</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center mb-0">2</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">信用卡付款</p>
             </li>
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center mb-0">3</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center mb-0">3</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">付款成功</p>
             </li>
           </ol>
@@ -26,7 +26,7 @@ const Checkout = () => {
         <div className="col-lg-6">
           <div className="mb-7 mb-lg-11">
             <h3 className="fs-5 fs-lg-4 mb-5">訂單摘要</h3>
-            <div className="d-flex justify-content-between bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
+            <div className="d-flex flex-column justify-content-between bg-light border border-primary border-3 rounded-1 py-5 px-8 py-lg-7 px-lg-10">
               <p className="fs-6 fs-lg-5 mb-0">從 2023/09/17 開始：</p>
               <div className="text-end">
                 <p className="fs-3 fs-lg-1 mb-0">每月 NT$109</p>

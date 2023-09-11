@@ -8,15 +8,15 @@ const Receipt = () => {
         <div className="col-lg-8 mx-auto">
           <ol className="pay-list mt-5 d-flex justify-content-between list-unstyled position-relative">
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">1</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">1</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">訂單確認</p>
             </li>
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">2</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">2</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">信用卡付款</p>
             </li>
             <li className="d-flex flex-column align-items-center">
-              <p className="number fw-bold fs-5 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">3</p>
+              <p className="number fw-bold fs-6 fs-lg-3 d-flex justify-content-center align-items-center number-active mb-0">3</p>
               <p className="fs-8 text-darkgray mt-1 mb-0">付款成功</p>
             </li>
           </ol>
@@ -33,7 +33,7 @@ const Receipt = () => {
               <div className="d-flex justify-content-between">
                 <div>
                   <p className="fs-7 fs-lg-6 mb-0">月費</p>
-                  <p className="fs-8 fs-lg-7 text-darkgray mb-0">開始計費日期：2023 年 09 月 17 日</p>
+                  <p className="fs-9 fs-lg-7 text-darkgray mb-0">開始計費日期：2023 年 09 月 17 日</p>
                 </div>
                 <p className="fs-6 fs-lg-5 mb-0">每月 NT$109</p>
               </div>
