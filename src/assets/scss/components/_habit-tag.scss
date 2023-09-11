@@ -26,3 +26,34 @@
     min-width: 61px;
   }
 }
+
+.defaultTag {
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 4px 16px;
+}
+
+.dailyTag:hover, .dailyTag:focus {
+  color: $white;
+  background-color: $primary;
+}
+
+.weeklyTag:hover, .weeklyTag:focus {
+  color: $white;
+  background-color: $secondary;
+}
+
+.addTag:hover, .addTag:focus {
+  color: $white;
+  background-color: $success;
+}
+
+.minusTag:hover, .minusTag:focus {
+  color: $white;
+  background-color: $warning;
+}
+
+.feeTag:hover, .feeTag:focus {
+  color: $white;
+  background-color: $primary;
+}

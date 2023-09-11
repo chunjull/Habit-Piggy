@@ -62,7 +62,73 @@ const HabitTarget = () => {
           <div className="col-10">
             <div className="d-flex justify-content-between align-items-center mt-4 mt-md-12 mb-5 mb-md-7 ">
               <h2 className="fs-3 fs-md-10 fw-bold">目標習慣</h2>
-              <button type="button" className="fs-3 fs-md-10 text-primary bg-transparent border-0"><i className="bi bi-plus-circle"></i></button>
+              <button type="button" className="fs-3 fs-md-10 text-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#habitAdd"><i className="bi bi-plus-circle"></i></button>
+              
+              <div className="modal fade" id="habitAdd" tabindex="-1" aria-labelledby="habitAddLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                  <div className="modal-content bg-white">
+                    <div className="modal-header border-0">
+                      <h5 className="modal-title fs-5 fs-lg-2 fw-bold" id="habitAddLabel">新增習慣</h5>
+                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                      <form>
+                        <div className="mb-3 mb-lg-5 row">
+                          <label for="habitName" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣名稱</label>
+                          <div className="col-sm-9">
+                            <input type="text" className="form-control bg-white fs-6 py-3" id="habitName" placeholder="請輸入習慣名稱"></input>
+                          </div>
+                        </div>
+                        <div className="mb-3 mb-lg-5 row align-items-center">
+                          <label for="habitFrequency" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣頻率</label>
+                          <div className="col-sm-9">
+                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitFrequency">
+                              <button type="button" className="btn btn-lightgray defaultTag dailyTag me-5">每日</button>
+                              <button type="button" className="btn btn-lightgray defaultTag weeklyTag">每週</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="mb-3 mb-lg-5 row">
+                          <label for="habitFee" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣罰款</label>
+                          <div className="col-sm-9">
+                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0 d-flex justify-content-between align-items-center" id="habitFee">
+                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">10</button>
+                              <div className="border-bottom border-darkgray" style={{width: '64px'}}></div>
+                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">25</button>
+                              <div className="border-bottom border-darkgray" style={{width: '64px'}}></div>
+                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">50</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="mb-3 mb-lg-5 row align-items-center">
+                          <label for="habitType" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣類型</label>
+                          <div className="col-sm-9">
+                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitType">
+                              <button type="button" className="btn btn-lightgray defaultTag addTag me-5">養成</button>
+                              <button type="button" className="btn btn-lightgray defaultTag minusTag">戒除</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="mb-3 mb-lg-5 row">
+                          <label for="habitDate" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣期限</label>
+                          <div className="col-sm-9">
+                            <input type="text" className="form-control bg-white fs-6 py-3" id="habitDate" placeholder=""></input>
+                          </div>
+                        </div>
+                        <div className="mb-3 mb-lg-5 row">
+                          <label for="habitRemark" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣備註</label>
+                          <div className="col-sm-9">
+                            <input type="text" className="form-control bg-white fs-6 py-3" id="habitRemark" placeholder="請輸入習慣備註"></input>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div className="modal-footer border-0">
+                      <button type="button" className="btn btn-primary text-white w-100 fs-6">新增習慣</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <hr />
             <div className="mt-5 mt-md-10 mb-11 mb-md-12">

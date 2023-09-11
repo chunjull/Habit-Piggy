@@ -1,6 +1,8 @@
 import aboutImage from '../assets/images/about.jpg';
 import Slick from '../components/slick';
 import MyMasonry from '../components/masonry';
+import { Link } from 'react-router-dom';
+import { Parallax } from 'react-scroll-parallax';
 
 const Home = () => {
   return (
@@ -51,6 +53,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <tryScroll />
       </div>
     </div>
 
@@ -180,7 +183,7 @@ const Home = () => {
 
     <div className="text-center my-11 my-md-18">
       <h3 className="fw-bold fs-4 fs-md-10 mb-7 mb-md-11"> <span className="title-underline">立即開始建立好習慣！</span></h3>
-      <div className="btn btn-primary btn-lg px-9 px-md-12 fs-5 fs-md-4 fw-bold text-white">會員登入</div>
+      <Link to="/Login" className="btn btn-primary text-white fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12">會員登入</Link>
     </div>
   </>
   );
