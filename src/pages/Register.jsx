@@ -17,12 +17,12 @@ const Register = () => {
               <h2 className="text-dark fs-5 fs-lg-10 lh-base fw-bold mb-3 mb-lg-7">會員註冊</h2>
               <form action="#">
                 <div className="mb-3 mb-lg-7">
-                  <label htmlFor="registerAccount" className="form-label fs-lg-5 fw-bold text-dark mb-1">Account</label>
-                  <input type="text" name="registerAccount" id="registerAccount" className="form-control border-0 bg-white fs-6 fs-lg-5" />
-                </div>
-                <div className="mb-3 mb-lg-7">
                   <label htmlFor="registerEmail" className="form-label fs-lg-5 fw-bold text-dark mb-1">Email</label>
                   <input type="email" name="registerEmail" id="registerEmail" className="form-control border-0 bg-white fs-6 fs-lg-5" />
+                </div>
+                <div className="mb-3 mb-lg-7">
+                  <label htmlFor="registerAccount" className="form-label fs-lg-5 fw-bold text-dark mb-1">Account</label>
+                  <input type="text" name="registerAccount" id="registerAccount" className="form-control border-0 bg-white fs-6 fs-lg-5" />
                 </div>
                 <div className="mb-3 mb-lg-7">
                   <label htmlFor="registerPassword" className="form-label fs-lg-5 fw-bold text-dark mb-1">Password</label>
