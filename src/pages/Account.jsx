@@ -11,19 +11,19 @@ const Account = () => {
           <div className="col-lg-8">
             <h3 className="fs-lg-10 fw-bold pb-5 pb-lg-7 mb-5 mb-lg-7 border-bottom border-darkgray">帳號設定</h3>
               <form>
-                <div className="mb-3 mb-md-5 row">
+                <div className="mb-3 mb-md-7 row">
                   <label htmlFor="userName" className="col-sm-3 col-form-label fs-6 fs-lg-5">使用者名稱</label>
                   <div className="col-sm-9">
                     <input type="text" className="form-control border-0 bg-lightgray text-darkgray fs-6 py-3" id="userName" placeholder="Piggy" disabled></input>
                   </div>
                 </div>
-                <div className="mb-3 mb-md-5 row">
+                <div className="mb-3 mb-md-7 row">
                   <label htmlFor="accountEmail" className="col-sm-3 col-form-label fs-6 fs-lg-5">Email</label>
                   <div className="col-sm-9">
                     <input type="email" className="form-control border-0 bg-lightgray text-darkgray fs-6 py-3" id="accountEmail" placeholder="Piggy@gmail.com" disabled></input>
                   </div>
                 </div>
-                <div className="mb-3 mb-md-5 row">
+                <div className="mb-3 mb-md-7 row">
                   <label htmlFor="qualification" className="col-sm-3 col-form-label fs-6 fs-lg-5">會員訂閱</label>
                   <div className="col-sm-9">
                     <button type="button" className="btn btn-lightgray w-100 text-start">
@@ -33,7 +33,7 @@ const Account = () => {
                     </button>
                   </div>
                 </div>
-                <div className="mb-3 mb-md-5 row">
+                <div className="mb-3 mb-md-7 row">
                   <label htmlFor="habitLevel" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣成就等級</label>
                   <div className="col-sm-9">
                     <button className="btn btn-primary d-flex justify-content-between w-100 py-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#habitLevelCollapse" aria-expanded="false" aria-controls="habitLevelCollapse">
@@ -48,7 +48,7 @@ const Account = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mb-3 mb-md-5 row">
+                <div className="mb-3 mb-md-7 row">
                   <label htmlFor="moneyLevel" className="col-sm-3 col-form-label fs-6 fs-lg-5">存錢筒成就等級</label>
                   <div className="col-sm-9">
                     <button className="btn btn-primary d-flex justify-content-between w-100 py-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#moneyLevelCollapse" aria-expanded="false" aria-controls="moneyLevelCollapse">
