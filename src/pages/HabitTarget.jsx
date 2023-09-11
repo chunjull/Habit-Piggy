@@ -65,7 +65,7 @@ const HabitTarget = () => {
               <button type="button" className="fs-3 fs-md-10 text-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#habitAdd"><i className="bi bi-plus-circle"></i></button>
               
               <div className="modal fade" id="habitAdd" tabindex="-1" aria-labelledby="habitAddLabel" aria-hidden="true">
-                <div className="modal-dialog">
+                <div className="modal-dialog modal-dialog-centered">
                   <div className="modal-content bg-white">
                     <div className="modal-header border-0">
                       <h5 className="modal-title fs-5 fs-lg-2 fw-bold" id="habitAddLabel">新增習慣</h5>
@@ -124,7 +124,21 @@ const HabitTarget = () => {
                       </form>
                     </div>
                     <div className="modal-footer border-0">
-                      <button type="button" className="btn btn-primary text-white w-100 fs-6">新增習慣</button>
+                      <button type="button" className="btn btn-primary text-white w-100 fs-6" data-bs-toggle="modal" data-bs-target="#habitAddSuccess">新增習慣</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="modal fade" id="habitAddSuccess" tabindex="-1" aria-labelledby="habitAddSuccessLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header border-0 px-7 pb-0">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body text-center px-7 pt-0">
+                      <i class="bi bi-check-circle fs-1 text-primary"></i>
+                      <p className="fs-5 mb-0 pt-5">已新增目標習慣</p>
                     </div>
                   </div>
                 </div>
