@@ -10,12 +10,12 @@ const Article = () => {
             <h2 className="fs-5 fs-lg-10 fw-bold mb-3 mb-lg-5">用４步驟幫你打造更好版本的自己</h2>
             <p className="fs-8 fs-lg-6 text-darkgray mb-lg-11">28 AUG 2023</p>
           </div>
+          <img src="https://images.unsplash.com/photo-1466193341027-56e68017ee2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="article picture" className="w-100 mb-5 mb-lg-11" />
           <div className="mb-5 mb-lg-11">
             <p className="fs-lg-4 mb-0 text-indent">每個人都有自己的目標與願望，但要達成這些目標並不總是容易的事情。我們往往會在改變的路上遇到困難，可能會失去動力，甚至回到過去的舊習慣中。</p>
             <p className="fs-lg-4 mb-0 text-indent">然而，詹姆斯·克利爾（James Clear）的《原子習慣》這本書為我們揭示了一條打造更好版本自己的有效之道。書中提供了一套簡單而深具洞察力的四個步驟，幫助我們建立持久且積極的新習慣，讓我們成為更好的自己。</p>
           </div>
           <p className="fs-lg-4 mb-lg-11 text-indent">本文將探討這四個步驟，帶領您進入一趟自我改變的奇妙旅程。</p>
-          <img src="https://images.unsplash.com/photo-1466193341027-56e68017ee2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="article picture" className="w-100 mb-5 mb-lg-11" />
           <div className='mb-5 mb-lg-11'>
             <h6 className="fs-6 fs-lg-3 fw-bold mb-3 mb-lg-5">第一步驟：製定明確且具體的目標</h6>
             <p className="fs-lg-4 mb-0 text-indent">在建立新習慣之前，我們必須明確知道自己要達成的目標是什麼。這個目標應該是具體、可衡量且真實可行的。</p>
