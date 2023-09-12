@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Receipt = () => {
   return (
   <>
-    <div className="container py-11 py-lg-16">
+    <div className="container fit-container py-11 py-lg-16">
       <div className="row mb-7 mb-lg-11">
         <div className="col-lg-8 mx-auto">
           <ol className="pay-list mt-5 d-flex justify-content-between list-unstyled position-relative">

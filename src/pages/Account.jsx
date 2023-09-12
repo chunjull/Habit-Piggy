@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Account = () => {
   return (
   <>
-    <div className="d-flex flex-column flex-lg-row">
+    <div className="d-flex flex-column flex-lg-row fit-container">
       <SideBar />
       <div className="container pt-4 pb-10 pt-lg-10">
         <div className="row justify-content-center">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Register = () => {
   return (
   <>
-    <div className="registerBanner">
+    <div className="registerBanner fit-container">
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-2 py-11 py-lg-16">
           <div className="col d-flex flex-column justify-content-center align-items-center align-items-lg-baseline px-13 px-lg-17 mb-7 mb-lg-0">

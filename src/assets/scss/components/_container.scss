@@ -1,0 +1,6 @@
+$header-height: 80px;
+$footer-height: 62px;
+
+.fit-container {
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+}

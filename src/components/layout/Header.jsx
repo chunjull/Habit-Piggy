@@ -13,13 +13,13 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-lg-auto mb-lg-0 fs-6 pb-1 pb-lg-0 mt-3">
               <li className="nav-item pt-5 pt-lg-0 ps-12 ps-lg-0">
-                <Link className="nav-link fs-5 p-0" to="./Articles">推薦文章</Link>
+                <Link className="nav-link text-white fs-5 p-0" to="./Articles">推薦文章</Link>
               </li>
               <li className="nav-item pt-5 pt-lg-0 ps-12 ps-lg-16">
-                <Link className="nav-link fs-5 p-0" to="./Subscribe">訂閱方案</Link>
+                <Link className="nav-link text-white fs-5 p-0" to="./Subscribe">訂閱方案</Link>
               </li>
               <li className="nav-item pt-5 pt-lg-0 ps-12 ps-lg-16">
-                <Link className="nav-link fs-5 p-0" to="./Login">會員登入</Link>
+                <Link className="nav-link text-white fs-5 p-0" to="./Login">會員登入</Link>
               </li>
             </ul>
           </div>

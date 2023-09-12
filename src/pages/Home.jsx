@@ -77,7 +77,7 @@ const Home = () => {
 
     <div className="container">
       <div className="row my-11 my-md-16">
-        <div className="col-12 col-md-5">
+        <div className="col-12 col-lg-5">
           <div className="row justify-content-center">
             <div className="col-md-8">
               <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">FAQs</span></h3>
@@ -85,7 +85,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-7">
+        <div className="col-12 col-lg-7">
           <div className="accordion accordion-flush" id="accordionExample">
             <div className="accordion-item">
               <h4 className="accordion-header" id="headingOne">

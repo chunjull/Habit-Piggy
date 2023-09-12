@@ -3,7 +3,7 @@ import SideBar from "../components/sideBar";
 const Today = () => {
   return (
   <>
-    <div className="d-flex flex-column flex-lg-row">
+    <div className="d-flex flex-column flex-lg-row fit-container">
       <SideBar />
       <main className="container pt-4 pb-10 pt-lg-10">
         <div className="row justify-content-center">
