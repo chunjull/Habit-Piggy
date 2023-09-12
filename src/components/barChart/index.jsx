@@ -49,23 +49,21 @@ export const options = {
     },
   };
 
-const weeks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const expenses = [160, 75, 100, 150, 70, 110, 90, 120, 140, 150];
-const isEvenWeek = [true, false, true, false, true, false, true, false, true, false];
 
 
-export const data = {
-  labels: weeks.map((week) => `week${week}`),
-  datasets: [
-    {
-      data: expenses,
-      backgroundColor: weeks.map((week, index) => isEvenWeek[index] ? 'rgb(255,199,0)' : 'rgb(0,105,120)'),
-      categoryPercentage: 0.6,
-    },
-  ],
-};
+const BarChart = ({weeks, expenses, isEvenWeek}) => {
 
-const BarChart = () => {
+  const data = {
+    labels: weeks.map((week) => `week${week}`),
+    datasets: [
+      {
+        data: expenses,
+        backgroundColor: weeks.map((week, index) => isEvenWeek[index] ? 'rgb(255,199,0)' : 'rgb(0,105,120)'),
+        categoryPercentage: 0.6,
+      },
+    ],
+  };
+
   return <Bar options={options} data={data} />;
 }
 

@@ -6,9 +6,9 @@ const PiggyBank = () => {
 
 
   // 長條圖資料
-  const weeks = [1, 2, 3, 4, 5, 6, 7, 8];
-  const expenses = [100, 150, 120, 200, 180, 160, 140, 190];
-  const isEvenWeek = [true, false, true, false, true, false, true, false];
+  const weeks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const expenses = [160, 75, 100, 150, 70, 110, 90, 120, 140, 150];
+  const isEvenWeek = [true, false, true, false, true, false, true, false, true, false];
 
   // 歷史紀錄資料
 
