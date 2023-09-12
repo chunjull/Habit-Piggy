@@ -775,7 +775,7 @@ $table-color:                 var(--#{$prefix}body-color) !default;
 $table-bg:                    var(--#{$prefix}body-bg) !default;
 $table-accent-bg:             transparent !default;
 
-$table-th-font-weight:        null !default;
+$table-th-font-weight:        400 !default; // custom
 
 $table-striped-color:         $table-color !default;
 $table-striped-bg-factor:     .05 !default;
@@ -787,11 +787,11 @@ $table-active-bg:             rgba($black, $table-active-bg-factor) !default;
 
 $table-hover-color:           $table-color !default;
 $table-hover-bg-factor:       .075 !default;
-$table-hover-bg:              rgba($black, $table-hover-bg-factor) !default;
+$table-hover-bg:              $tertiary !default; // custom
 
 $table-border-factor:         .1 !default;
 $table-border-width:          var(--#{$prefix}border-width) !default;
-$table-border-color:          var(--#{$prefix}border-color) !default;
+$table-border-color:          transparent !default; // custom
 
 $table-striped-order:         odd !default;
 $table-striped-columns-order: even !default;

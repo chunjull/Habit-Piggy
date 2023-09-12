@@ -105,10 +105,10 @@ const Sidebar = () => {
               </div>
             </div>
             <div className="mb-5">
-              <Link to="#" className="sidebar-item">
+              <Link to="/PiggyBank" className="sidebar-item">
                 <button
                   type="button"
-                  className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/')}`}
+                  className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/PiggyBank')}`}
                 >
                   <i className="bi bi-coin fs-6 me-4"></i>存錢筒
                 </button>
@@ -179,10 +179,10 @@ const Sidebar = () => {
           </div>
         </div>
         <div className="mb-5">
-          <Link to="#" className="sidebar-item">
+          <Link to="/PiggyBank" className="sidebar-item">
             <button
               type="button"
-              className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/')}`}
+              className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/PiggyBank')}`}
             >
               <i className="bi bi-coin fs-6 me-4"></i>存錢筒
             </button>

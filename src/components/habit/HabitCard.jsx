@@ -1,20 +1,5 @@
 import HabitTag from "./HabitTag";
 
-const getHabitTagClass = (habitTag) => {
-  switch (habitTag) {
-    case "每日":
-      return "dailyHabit";
-    case "每週":
-      return "weeklyHabit";
-    case "養成":
-      return "addHabit";
-    case "戒除":
-      return "minusHabit";
-    default:
-      return "";
-  }
-};
-
 const HabitCard = ({ habit, disable }) => {
   return (
     <div
@@ -26,10 +11,7 @@ const HabitCard = ({ habit, disable }) => {
       </div>
       <div className="d-flex justify-content-between align-items-center mb-3 mb-md-5">
         <span className="d-block fs-7 fs-lg-6">習慣頻率:</span>
-        <HabitTag 
-          text={ habit["習慣頻率"] }
-          customStyle={ getHabitTagClass(habit["習慣頻率"]) }
-        />
+        <HabitTag text={ habit["習慣頻率"] } />
       </div>
       <div className="d-flex justify-content-between align-items-center mb-3 mb-md-5">
         <span className="d-block fs-7 fs-lg-6">習慣罰款:</span>
@@ -37,10 +19,7 @@ const HabitCard = ({ habit, disable }) => {
       </div>
       <div className="d-flex justify-content-between align-items-center mb-3 mb-md-5">
         <span className="d-block fs-7 fs-lg-6">習慣類型:</span>
-        <HabitTag 
-          text={ habit["習慣類型"] }
-          customStyle={ getHabitTagClass(habit["習慣類型"]) }
-        />
+        <HabitTag text={ habit["習慣類型"] } />
       </div>
       <div className="d-flex justify-content-between align-items-center mb-3 mb-md-5">
         <span className="d-block fs-7 fs-lg-6">習慣期限:</span>

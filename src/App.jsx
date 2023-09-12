@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import HabitTarget from "./pages/HabitTarget";
 import HabitHistory from "./pages/HabitHistory";
 import NotFound from "./pages/NotFound";
+import PiggyBank from "./pages/PiggyBank";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/HabitTarget" element={<HabitTarget />} />
           <Route path="/HabitHistory" element={<HabitHistory />} />
+          <Route path="/PiggyBank" element={<PiggyBank />} />
           <Route path="/" element={<NotFound />} />
         </Route>
       </Routes>
