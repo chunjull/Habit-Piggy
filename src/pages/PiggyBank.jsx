@@ -128,67 +128,79 @@ const PiggyBank = () => {
                 </div>
               </div>
             </div>
-            <div className="my-7 px-3 py-4 p-md-5 border border-1 rounded-2">
+            <div className="my-7 px-3 py-4 p-md-5 border border-darkgray rounded-2">
               <BarChart
                 weeks={weeks}
                 expenses={expenses}
                 isEvenWeek={isEvenWeek}
               />
             </div>
-            <div className="border border-1 rounded-2 mb-13 mb-lg-10">
-              <div className="d-flex justify-content-between align-items-center py-4 px-7 border border-bottom border-1">
+            <div className="border border-darkgray rounded-2 mb-13 mb-lg-10">
+              <div className="d-flex justify-content-between align-items-center py-4 px-7 border-bottom border-darkgray">
                 <p className="fs-7 fs-md-6 mb-0">存錢筒歷史紀錄</p>
-                <button
-                  type="button"
-                  className="fs-9 fs-md-7 border border-1 rounded-1 bg-white px-5 py-1 d-flex align-items-center"
-                >
-                  <span className="me-1">排序方式</span>
-                  <i className="bi bi-filter"></i>
-                </button>
+                <div className="dropdown">
+                  <button
+                    type="button"
+                    className="fs-9 fs-md-7 border border-black rounded-1 bg-transparent px-5 py-1 d-flex align-items-center"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span className="me-1">排序方式</span>
+                    <i className="bi bi-filter"></i>
+                  </button>
+                  <ul className="dropdown-menu bg-light border-black" aria-labelledby="dropdownMenuButton1">
+                    <li><a className="dropdown-item" href="#">默認排序</a></li>
+                    <li><a className="dropdown-item" href="#">由新到舊</a></li>
+                    <li><a className="dropdown-item" href="#">由舊到新</a></li>
+                  </ul>
+                </div>
               </div>
-              <table className="table table-hover bg-white">
-                <thead className="bg-light">
-                  <tr className="">
-                    <th scope="col" className="text-start ">
-                      編號
-                    </th>
-                    <th scope="col" className="text-start px-xl-10">
-                      習慣名稱
-                    </th>
-                    <th scope="col" className="text-end px-xl-10">
-                      罰款金額
-                    </th>
-                    <th scope="col" className="text-start px-10 d-none d-xl-table-cell">
-                      習慣類型
-                    </th>
-                    <th scope="col" className="text-end d-none d-xl-table-cell">
-                      未完成日期
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-
-                  {bankHistory.map((item) => (
-                    <tr key={item.id}>
-                      <th className="text-start ps-4" scope="row">{item['編號']}</th>
-                      <td className="text-star ps-xl-10">{item['習慣名稱']}</td>
-                      <td className="text-end pe-xl-10">{item['罰款金額']}</td>
-                      <td className="text-start ps-10 d-none d-xl-table-cell"><HabitTag text={item['習慣類型']} /></td>
-                      <td className="text-center d-none d-xl-table-cell">
-                        {item['未完成日期']}
-                      </td>
+              <div className="table-responsive">
+                <table className="table table-hover bg-white mb-0">
+                  <thead className="bg-light">
+                    <tr>
+                      <th scope="col" className="text-start ps-4 text-nowrap">
+                        編號
+                      </th>
+                      <th scope="col" className="text-start px-xl-10 text-nowrap">
+                        習慣名稱
+                      </th>
+                      <th scope="col" className="text-end px-xl-10 text-nowrap">
+                        罰款金額
+                      </th>
+                      <th scope="col" className="text-start px-10 d-lg-table-cell text-nowrap">
+                        習慣類型
+                      </th>
+                      <th scope="col" className="text-end d-lg-table-cell pe-4 text-nowrap">
+                        未完成日期
+                      </th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-              <div className="py-4 pe-7 border border-top border-1">
+                  </thead>
+                  <tbody>
+
+                    {bankHistory.map((item) => (
+                      <tr key={item.id}>
+                        <th className="text-start ps-4" scope="row">{item['編號']}</th>
+                        <td className="text-start ps-xl-10 text-nowrap">{item['習慣名稱']}</td>
+                        <td className="text-end pe-xl-10">{item['罰款金額']}</td>
+                        <td className="text-start ps-10 d-lg-table-cell"><HabitTag text={item['習慣類型']} /></td>
+                        <td className="text-end d-lg-table-cell pe-4">
+                          {item['未完成日期']}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="py-4 pe-7 border-top border-darkgray">
               <nav
                 aria-label="Page navigation"
                 className="d-flex justify-content-end"
               >
                 <ul className="pagination text-center mb-0">
-                  <li className="page-item active">
-                    <a className="page-link" href="#">
+                  <li className="page-item">
+                    <a className="page-link active" href="#">
                       1
                     </a>
                   </li>

@@ -89,7 +89,7 @@ const Sidebar = () => {
                     type="button"
                     className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/HabitTarget')}`}
                   >
-                    <i className="bi bi-bullseye fs-6 me-4"></i>目標習慣
+                    <i className="bi bi-bullseye fs-6 ms-9 me-4"></i>目標習慣
                   </button>
                 </Link>
               </div>
@@ -99,7 +99,7 @@ const Sidebar = () => {
                     type="button"
                     className={`sidebar-nav btn text-start w-100 py-3 px-5 border-0 fs-6 ${isActiveRoute(location.pathname, '/HabitHistory')}`}
                   >
-                    <i className="bi bi-clock-history fs-6 me-4"></i>歷史習慣
+                    <i className="bi bi-clock-history fs-6 ms-9 me-4"></i>歷史習慣
                   </button>
                 </Link>
               </div>
