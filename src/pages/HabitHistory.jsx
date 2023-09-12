@@ -85,57 +85,37 @@ const HabitHistory = () => {
           <div className="col-10">
             <div className="d-flex justify-content-between align-items-center mt-4 mt-md-12 mb-5 mb-md-7 ">
               <h2 className="fs-3 fs-md-10 fw-bold">歷史習慣</h2>
-              <button
-                type="button"
-                className="fs-7 fs-md-5 border border-1 rounded-1 bg-white px-5 py-1 d-flex align-items-center"
-              >
-                <span className="me-1">排序方式</span>
-                <span className="d-none d-md-inline">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
+              <div className="dropdown">
+                  <button
+                    type="button"
+                    className="fs-9 fs-md-7 border border-black rounded-1 bg-transparent px-5 py-1 d-flex align-items-center"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
-                    <path
-                      d="M2 3H22L14 12.46V21L10 19V12.46L2 3Z"
-                      stroke="black"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-                <span className="d-md-none">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1.33398 2H14.6673L9.33398 8.30667V14L6.66732 12.6667V8.30667L1.33398 2Z"
-                      stroke="black"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </button>
+                    <span className="me-1 fs-6 fs-lg-5">排序方式</span>
+                    <i className="bi bi-filter fs-6 fs-lg-5"></i>
+                  </button>
+                  <ul className="dropdown-menu bg-light border-black" aria-labelledby="dropdownMenuButton1">
+                    <li><a className="dropdown-item" href="#">默認排序</a></li>
+                    <li><a className="dropdown-item" href="#">由新到舊</a></li>
+                    <li><a className="dropdown-item" href="#">由舊到新</a></li>
+                  </ul>
+                </div>
             </div>
-            <hr />
+            <div className="border-bottom border-darkgray" />
+
             <div className="mt-5 mt-md-10 mb-11 mb-md-12">
               <HabitMasonry habitList={habitHistoryList} disable={true} />
             </div>
-            <div className="d-md-none">
+            <div className="">
               <nav
                 aria-label="Page navigation"
                 className="d-flex justify-content-center"
               >
                 <ul className="pagination text-center mb-11">
                   <li className="page-item active">
-                    <a className="page-link" href="#">
+                    <a className="page-link active" href="#">
                       1
                     </a>
                   </li>
@@ -147,16 +127,6 @@ const HabitHistory = () => {
                   <li className="page-item">
                     <a className="page-link ms-2" href="#">
                       3
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link ms-2" href="#">
-                      4
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link ms-2" href="#">
-                      5
                     </a>
                   </li>
                 </ul>

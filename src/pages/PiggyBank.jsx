@@ -102,9 +102,9 @@ const PiggyBank = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8">
             <div className="my-4 mt-md-10 mb-md-5 ">
-              <h2 className="fs-4 fs-md-1 fw-bold">存錢筒資訊</h2>
+              <h2 className="fs-3 fs-md-10 fw-bold">存錢筒資訊</h2>
             </div>
-            <hr />
+            <div className="border-bottom border-darkgray mb-7" />
             <div className="row">
               <div className="col-6 col-lg-3">
                 <div className="bg-primary rounded-2 text-white text-end p-5">

@@ -13,7 +13,7 @@ const HabitTarget = () => {
       '習慣期限迄日': '2023/09/20',
       '累積罰款': '$20',
       '最佳連續紀錄': '14天',
-      '備註': '無',
+      '備註': '每天一篇',
       '習慣狀態': '進行中',
     },
     {
@@ -62,7 +62,14 @@ const HabitTarget = () => {
           <div className="col-10">
             <div className="d-flex justify-content-between align-items-center mt-4 mt-md-12 mb-5 mb-md-7 ">
               <h2 className="fs-3 fs-md-10 fw-bold">目標習慣</h2>
-              <button type="button" className="fs-3 fs-md-10 text-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#habitAdd"><i className="bi bi-plus-circle"></i></button>
+              <button
+                type="button"
+                className="fs-9 fs-md-7 bg-fourth text-white border-0 rounded-1 px-5 py-1 d-flex align-items-center"
+                data-bs-toggle="modal"
+                data-bs-target="#habitAdd">
+                <span className="me-1 fs-6 fs-lg-5">新增習慣</span>
+                <i className="bi bi-plus fs-5 fs-lg-4"></i>
+              </button>
               
               <div className="modal fade" id="habitAdd" tabindex="-1" aria-labelledby="habitAddLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered">
@@ -144,7 +151,7 @@ const HabitTarget = () => {
                 </div>
               </div>
             </div>
-            <hr />
+            <div className="border-bottom border-darkgray" />
             <div className="mt-5 mt-md-10 mb-11 mb-md-12">
               <HabitMasonry habitList={habitTargetList}/>
             </div> 

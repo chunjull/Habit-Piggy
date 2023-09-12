@@ -731,7 +731,7 @@ $blockquote-footer-color:     $gray-600 !default;
 $blockquote-footer-font-size: $small-font-size !default;
 
 $hr-margin-y:                 $spacer !default;
-$hr-color:                    inherit !default;
+$hr-color:                    $darkgray !default; //custom
 
 // fusv-disable
 $hr-bg-color:                 null !default; // Deprecated in v5.2.0
