@@ -15,13 +15,14 @@ import Account from "./pages/Account";
 import Contact from "./pages/Contact";
 import HabitTarget from "./pages/HabitTarget";
 import HabitHistory from "./pages/HabitHistory";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Checkout" element={<Checkout />} />
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/HabitTarget" element={<HabitTarget />} />
           <Route path="/HabitHistory" element={<HabitHistory />} />
+          <Route path="/" element={<NotFound />} />
         </Route>
       </Routes>
     </div>
