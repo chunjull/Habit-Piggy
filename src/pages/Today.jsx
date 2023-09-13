@@ -1,4 +1,5 @@
 import SideBar from "../components/sideBar";
+import TimeDisplay from "../components/dayjs";
 
 const Today = () => {
   return (
@@ -9,8 +10,7 @@ const Today = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="d-flex justify-content-between align-items-center pb-4 pb-lg-5 border-bottom border-darkgray">
-              <h5 className="fs-5 fs-lg-3 text-darkgray">2023 年 09 月 17 日</h5>
-              <h5 className="fs-5 fs-lg-3 text-dark fw-bold">10:22:49</h5>
+              <TimeDisplay />
             </div>
             <div className="d-flex flex-column flex-lg-row justify-content-between py-4 border-bottom border-darkgray">
               <div className="form-check ms-5 mb-3 mb-lg-0">
