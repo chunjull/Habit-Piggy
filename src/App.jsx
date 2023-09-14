@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Checkout" element={<Checkout />} />
@@ -39,7 +39,7 @@ function App() {
           <Route path="/HabitTarget" element={<HabitTarget />} />
           <Route path="/HabitHistory" element={<HabitHistory />} />
           <Route path="/PiggyBank" element={<PiggyBank />} />
-          <Route path="/" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </div>
