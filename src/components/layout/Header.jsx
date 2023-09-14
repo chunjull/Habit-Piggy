@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="navbar navbar-expand-lg navbar-light bg-primary py-5">
         <nav className="container">
-          <h1><Link className="navbar-brand fs-3 lobster-two text-white" to="./Home"><img src={Icon} alt="habit-piggy-icon" className="align-bottom" />Habit Piggy</Link></h1>
+          <h1><Link className="navbar-brand fs-3 lobster-two text-white" to="./"><img src={Icon} alt="habit-piggy-icon" className="align-bottom" />Habit Piggy</Link></h1>
           <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i className="bi bi-list text-white fs-1"></i>
           </button>
