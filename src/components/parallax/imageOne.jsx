@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import Work from '../../assets/images/article-4.jpg';
+import Work from '../../assets/images/icon.png';
 
 const imageOne = () => {
   return (

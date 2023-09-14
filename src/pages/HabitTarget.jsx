@@ -65,7 +65,7 @@ const HabitTarget = () => {
               <h2 className="fs-3 fs-md-10 fw-bold">目標習慣</h2>
               <button
                 type="button"
-                className="fs-9 fs-md-7 bg-fourth text-white border-0 rounded-1 px-5 py-1 d-flex align-items-center"
+                className="fs-9 fs-md-7 bg-primary text-white border-0 rounded-1 px-5 py-1 d-flex align-items-center"
                 data-bs-toggle="modal"
                 data-bs-target="#habitAdd">
                 <span className="me-1 fs-6 fs-lg-5">新增習慣</span>
@@ -132,7 +132,7 @@ const HabitTarget = () => {
                       </form>
                     </div>
                     <div className="modal-footer border-0">
-                      <button type="button" className="btn btn-primary text-white w-100 fs-6" data-bs-toggle="modal" data-bs-target="#habitAddSuccess">新增習慣</button>
+                      <button type="submit" className="btn btn-primary text-white w-100 fs-6" data-bs-toggle="modal" data-bs-target="#habitAddSuccess">新增習慣</button>
                     </div>
                   </div>
                 </div>

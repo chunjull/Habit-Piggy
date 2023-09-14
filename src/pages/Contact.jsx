@@ -45,7 +45,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="d-flex justify-content-end">
-                  <button type="button" className="btn btn-primary text-white fs-6 py-3 px-9 ms-7" data-bs-toggle="modal" data-bs-target="#deliverySuccess">送出</button>
+                  <button type="submit" className="btn btn-primary text-white fs-6 py-3 px-9 ms-7" data-bs-toggle="modal" data-bs-target="#deliverySuccess">送出</button>
                 </div>
               </form>
 

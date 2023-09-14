@@ -184,8 +184,10 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="text-center mt-11 mt-lg-18 py-11 py-md-18 bg-cover bg-custom">
-      <h3 className="fw-bold fs-4 fs-md-10 mb-7 mb-md-11"> <span className="title-underline">立即開始建立好習慣！</span></h3>
+    <div className="text-center bg-cover bg-custom vh-100 d-flex flex-column justify-content-center align-items-center">
+      <h3 className="fw-bold fs-4 fs-md-10 mb-7 mb-md-11">
+        <span className="title-underline">立即開始建立好習慣！</span>
+        </h3>
       <Link to="/Login" className="btn btn-secondary fs-6 fs-lg-5 fw-bold py-3 px-8 px-lg-12">會員登入</Link>
     </div>
   </>
