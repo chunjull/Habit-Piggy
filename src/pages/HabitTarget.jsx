@@ -82,13 +82,13 @@ const HabitTarget = () => {
                     <div className="modal-body">
                       <form>
                         <div className="mb-3 mb-lg-5 row">
-                          <label for="habitName" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣名稱</label>
+                          <label htmlFor="habitName" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣名稱</label>
                           <div className="col-sm-9">
                             <input type="text" className="form-control bg-white fs-6 py-3" id="habitName" placeholder="請輸入習慣名稱"></input>
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row align-items-center">
-                          <label for="habitFrequency" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣頻率</label>
+                          <label htmlFor="habitFrequency" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣頻率</label>
                           <div className="col-sm-9">
                             <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitFrequency">
                               <button type="button" className="btn btn-lightgray defaultTag dailyTag me-5">每日</button>
@@ -97,7 +97,7 @@ const HabitTarget = () => {
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row">
-                          <label for="habitFee" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣罰款</label>
+                          <label htmlFor="habitFee" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣罰款</label>
                           <div className="col-sm-9">
                             <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0 d-flex justify-content-between align-items-center" id="habitFee">
                               <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">10</button>
@@ -109,7 +109,7 @@ const HabitTarget = () => {
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row align-items-center">
-                          <label for="habitType" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣類型</label>
+                          <label htmlFor="habitType" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣類型</label>
                           <div className="col-sm-9">
                             <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitType">
                               <button type="button" className="btn btn-lightgray defaultTag addTag me-5">養成</button>
@@ -118,13 +118,13 @@ const HabitTarget = () => {
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row">
-                          <label for="habitDate" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣期限</label>
+                          <label htmlFor="habitDate" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣期限</label>
                           <div className="col-sm-9">
                             <HabitDate />
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row">
-                          <label for="habitRemark" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣備註</label>
+                          <label htmlFor="habitRemark" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣備註</label>
                           <div className="col-sm-9">
                             <input type="text" className="form-control bg-white fs-6 py-3" id="habitRemark" placeholder="請輸入習慣備註"></input>
                           </div>

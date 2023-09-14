@@ -19,7 +19,7 @@ const HabitDate = () => {
         startDate={startDate}
         endDate={endDate}
         onChange={onChangeDateHandler}
-        className="form-control fs-6 border border-lightgray bg-white w-100"
+        className="form-control fs-6 bg-white w-100"
         id="habitDate"
       />
     </div>
