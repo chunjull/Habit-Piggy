@@ -1,4 +1,6 @@
 import SideBar from "../components/sideBar";
+import React, { useState } from "react";
+import ContactDate from "../components/datepicker";
 
 const Contact = () => {
   return (
@@ -17,9 +19,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-7 row">
-                  <div className="col-sm-3 fs-6 fs-lg-5">問題類別</div>
+                  <label htmlFor="problemSelect" className="col-sm-3 col-form-label fs-6 fs-lg-5">問題類別</label>
                   <div className="col-sm-9">
-                    <select className="form-select fs-6 bg-white border-lightgray text-darkgray" aria-label="Default select">
+                    <select className="form-select fs-6 bg-white border-lightgray text-darkgray" aria-label="Default select" id="problemSelect">
                       <option >請選擇問題類別</option>
                       <option value="1">修正問題</option>
                       <option value="2">管理帳戶與設定</option>
@@ -28,18 +30,16 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-7 row">
-                  <div className="col-sm-3 fs-6 fs-lg-5">發生日期</div>
+                  <label htmlFor="contactDate" className="col-sm-3  col-form-label fs-6 fs-lg-5">發生日期</label>
                   <div className="col-sm-9">
-                    <button type="button" className="btn btn-lightgray fs-6 border border-lightgray bg-white w-100 text-end text-darkgray">
-                      DD/MM/YYYY
-                    </button>
+                    <ContactDate></ContactDate>
                   </div>
                 </div>
                 <div className="row mb-11">
-                  <label htmlFor="contact" className="col-sm-3 col-form-label fs-6 fs-lg-5">問題描述</label>
+                  <label htmlFor="contactText" className="col-sm-3 col-form-label fs-6 fs-lg-5">問題描述</label>
                   <div className="col-sm-12">
                   <div className="form-floating">
-                    <textarea className="form-control bg-white" placeholder="Leave a comment here" id="floatingTextarea" style={{height: '80px',}}></textarea>
+                    <textarea className="form-control bg-white" placeholder="Leave a comment here" id="contactText" style={{height: '80px',}}></textarea>
                     <label htmlFor="floatingTextarea">請描述您遇到的問題⋯⋯</label>
                   </div>
                   </div>
