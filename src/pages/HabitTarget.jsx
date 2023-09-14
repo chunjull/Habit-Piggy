@@ -1,5 +1,6 @@
 import SideBar from "../components/sideBar";
 import HabitMasonry from "../components/habit/HabitMasonry";
+import HabitDate from "../components/datepicker/habitdate";
 
 const HabitTarget = () => {
 
@@ -119,6 +120,7 @@ const HabitTarget = () => {
                         <div className="mb-3 mb-lg-5 row">
                           <label for="habitDate" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣期限</label>
                           <div className="col-sm-9">
+                            <HabitDate />
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row">
