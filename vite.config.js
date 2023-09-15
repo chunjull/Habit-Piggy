@@ -9,5 +9,8 @@ export default defineConfig({
 
   build: {
     outDir: 'dist',
+  server: {
+    open: '/Habit-Piggy/#/',
+  }
   },
 });
