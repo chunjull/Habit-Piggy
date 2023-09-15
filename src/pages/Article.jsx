@@ -7,7 +7,7 @@ const Article = () => {
       <div className="row justify-content-center">
         <div className="col-lg-8">
           <div className="text-center">
-            <h2 className="fs-5 fs-md-2 fs-lg-10 fw-bold mb-3 mb-lg-5">用４步驟幫你打造更好版本的自己</h2>
+            <h2 className="fs-5 fs-md-2 fs-lg-10 fw-bold mb-3 mb-lg-5">《原子習慣》幫你打造更好版本的自己</h2>
             <p className="fs-8 fs-md-6 text-darkgray mb-lg-11">28 AUG 2023</p>
           </div>
           <img src="https://images.unsplash.com/photo-1466193341027-56e68017ee2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="article picture" className="w-100 mb-5 mb-lg-11" />
@@ -39,6 +39,18 @@ const Article = () => {
           <p className="fs-md-6 fs-lg-4 mb-0 text-indent">總結來說，《原子習慣》一書帶給我們一套實用且革命性的改變方法，讓我們能夠透過「原子習慣」逐步實現個人成長與成功。</p>
           <p className="fs-md-6 fs-lg-4 mb-0 text-indent">這四個步驟：製定明確的目標、創造吸引力的動力、減少阻力、培養持續的效能，不僅可以幫助我們打造更好版本的自己，也能夠帶來持久的積極改變。</p>
           <p className="fs-md-6 fs-lg-4 mb-0 text-indent">讓我們一起學習如何用「原子習慣」來改變自己，成為更堅強、更自信的人！</p>
+          <ul className="list-unstyled d-flex justify-content-between pt-7 border-top border-black my-7">
+            <li>
+              <Link tp="/Article" className="text-black fs-lg-6">
+                <i className="bi bi-arrow-left me-3"></i>上一篇
+              </Link>
+            </li>
+            <li>
+              <Link tp="/Article" className="text-black fs-lg-6">
+                下一篇<i className="bi bi-arrow-right ms-3"></i>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
