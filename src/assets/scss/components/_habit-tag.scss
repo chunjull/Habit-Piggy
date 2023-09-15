@@ -31,29 +31,38 @@
   font-size: 20px;
   border-radius: 8px;
   padding: 4px 16px;
+  border: 0;
 }
 
-.dailyTag:hover, .dailyTag:focus {
-  color: $white;
-  background-color: $primary;
+.habitBtn input {
+	clip: rect(0, 0, 0, 0);
 }
 
-.weeklyTag:hover, .weeklyTag:focus {
-  color: $white;
-  background-color: $secondary;
+.habitBtn label:hover {
+	cursor: pointer;
 }
 
-.addTag:hover, .addTag:focus {
+.habitBtn input:checked + .dailyTag {
+	background-color: $primary;
   color: $white;
-  background-color: $success;
 }
 
-.minusTag:hover, .minusTag:focus {
+.habitBtn input:checked + .weeklyTag {
+	background-color: $secondary;
   color: $white;
-  background-color: $warning;
 }
 
-.feeTag:hover, .feeTag:focus {
+.habitBtn input:checked + .addTag {
+	background-color: $success;
   color: $white;
-  background-color: $primary;
+}
+
+.habitBtn input:checked + .minusTag {
+	background-color: $warning;
+  color: $white;
+}
+
+.habitBtn input:checked + .feeTag {
+	background-color: $primary;
+  color: $white;
 }

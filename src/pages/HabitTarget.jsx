@@ -90,30 +90,37 @@ const HabitTarget = () => {
                         <div className="mb-3 mb-lg-5 row align-items-center">
                           <label htmlFor="habitFrequency" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣頻率</label>
                           <div className="col-sm-9">
-                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitFrequency">
-                              <button type="button" className="btn btn-lightgray defaultTag dailyTag me-5">每日</button>
-                              <button type="button" className="btn btn-lightgray defaultTag weeklyTag">每週</button>
+                            <div class="habitBtn d-flex overflow-hidden">
+                              <input type="radio" id="daily" name="habitFrequency" value="daily" className="position-absolute overflow-hidden" />
+                              <label for="daily" className="btn btn-lightgray text-center defaultTag dailyTag me-5">每日</label>
+                              <input type="radio" id="weekly" name="habitFrequency" value="weekly" className="position-absolute overflow-hidden" />
+                              <label for="weekly" className="btn btn-lightgray text-center defaultTag weeklyTag">每週</label>
                             </div>
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row">
                           <label htmlFor="habitFee" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣罰款</label>
                           <div className="col-sm-9">
-                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0 d-flex justify-content-between align-items-center" id="habitFee">
-                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">10</button>
+                            <div class="habitBtn d-flex justify-content-between align-items-center overflow-hidden">
+                              <input type="radio" id="habitFee10" name="habitFee" value="10" className="position-absolute overflow-hidden" />
+                              <label for="habitFee10" className="btn btn-lightgray text-center fs-6 rounded-5 feeTag">10</label>
                               <div className="border-bottom border-darkgray" style={{width: '64px'}}></div>
-                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">25</button>
+                              <input type="radio" id="habitFee25" name="habitFee" value="25" className="position-absolute overflow-hidden" />
+                              <label for="habitFee25" className="btn btn-lightgray text-center fs-6 rounded-5 feeTag">25</label>
                               <div className="border-bottom border-darkgray" style={{width: '64px'}}></div>
-                              <button type="button" className="btn btn-lightgray rounded-5 fs-6 feeTag">50</button>
+                              <input type="radio" id="habitFee50" name="habitFee" value="50" className="position-absolute overflow-hidden" />
+                              <label for="habitFee50" className="btn btn-lightgray text-center fs-6 rounded-5 feeTag">50</label>
                             </div>
                           </div>
                         </div>
                         <div className="mb-3 mb-lg-5 row align-items-center">
-                          <label htmlFor="habitType" className="col-sm-3 col-form-label fs-6 fs-lg-5">習慣類型</label>
+                          <div className="col-sm-3 fs-6 fs-lg-5">習慣類型</div>
                           <div className="col-sm-9">
-                            <div type="text" className="form-control border-0 bg-white fs-6 py-3 px-0" id="habitType">
-                              <button type="button" className="btn btn-lightgray defaultTag addTag me-5">養成</button>
-                              <button type="button" className="btn btn-lightgray defaultTag minusTag">戒除</button>
+                            <div class="habitBtn d-flex overflow-hidden">
+                              <input type="radio" id="habitTypeAdd" name="habitType" value="add" className="position-absolute overflow-hidden" />
+                              <label for="habitTypeAdd" className="btn btn-lightgray text-center defaultTag addTag me-5">養成</label>
+                              <input type="radio" id="habitTypeMinus" name="habitType" value="minus" className="position-absolute overflow-hidden" />
+                              <label for="habitTypeMinus" className="btn btn-lightgray text-center defaultTag minusTag">戒除</label>
                             </div>
                           </div>
                         </div>
@@ -138,14 +145,14 @@ const HabitTarget = () => {
                 </div>
               </div>
               
-              <div class="modal fade" id="habitAddSuccess" tabindex="-1" aria-labelledby="habitAddSuccessLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content bg-white">
-                    <div class="modal-header border-0 px-7 pb-0">
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div className="modal fade" id="habitAddSuccess" tabindex="-1" aria-labelledby="habitAddSuccessLabel" aria-hidden="true">
+                <div className="modal-dialog modal-dialog-centered">
+                  <div className="modal-content bg-white">
+                    <div className="modal-header border-0 px-7 pb-0">
+                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body text-center px-7 pt-0">
-                      <i class="bi bi-check-circle fs-1 text-primary"></i>
+                      <i className="bi bi-check-circle fs-1 text-primary"></i>
                       <p className="fs-5 mb-0 pt-5">已新增目標習慣</p>
                     </div>
                   </div>
