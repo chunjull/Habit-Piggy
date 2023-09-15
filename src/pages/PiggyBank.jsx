@@ -100,7 +100,7 @@ const PiggyBank = () => {
       <SideBar />
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-lg-8">
             <div className="my-4 mt-md-10 mb-md-5 ">
               <h2 className="fs-3 fs-md-10 fw-bold">存錢筒資訊</h2>
             </div>

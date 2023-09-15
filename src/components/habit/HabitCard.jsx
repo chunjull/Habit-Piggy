@@ -45,9 +45,28 @@ const HabitCard = ({ habit, disable }) => {
         <button
           type="button"
           className={`btn py-2 px-4 border-0 text-white rounded-1 ${disable ? 'btn-gray' : 'btn-danger' }`}
+          data-bs-toggle="modal"
+          data-bs-target="#habitDelete"
         >
           <span className="fs-7 fs-lg-6">刪除習慣</span>
         </button>
+      </div>
+      <div className="modal fade" id="habitDelete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content bg-white">
+            <div className="modal-header border-0 px-7">
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body text-center px-7">
+              <p className="fs-5 mb-5">您是否確認刪除此習慣？</p>
+              <p className="mb-0">提醒您，該習慣的所有資料及記錄皆會被刪除，且無法復原。</p>
+            </div>
+            <div className="modal-footer justify-content-center border-0 px-7 pt-0 pb-7">
+              <button type="button" className="btn btn-outline-warning py-3 px-8" data-bs-toggle="modal" data-bs-target="#confirm">確認</button>
+              <button type="button" className="btn btn-warning py-3 px-8" data-bs-dismiss="modal">取消</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

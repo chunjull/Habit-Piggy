@@ -14,7 +14,7 @@
 }
 
 .bg-custom {
-  background-image: url(../images/bg-custom-sm-removebg.png);
+  background-image: url(../images/bg-custom-removebg.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,16 +23,10 @@
   }
 }
 
+.vh-custom {
+  min-height: 75vh;
 
-.about-img {
-  height: 351px;
-  width: 351px;
-  position: absolute;
-  left: -25%;
-  @media (min-width: 768px) {
-    position: relative;
-    left: 0;
-    height: auto;
-    width: auto;
+  @media (min-width: 992px) {
+    min-height: 100vh;
   }
 }

@@ -162,7 +162,7 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="text-center bg-custom vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="text-center bg-custom vh-custom d-flex flex-column justify-content-center align-items-center">
       <h3 className="fw-bold fs-4 fs-md-10 mb-7 mb-md-11">
         <span className="title-underline">立即開始建立好習慣！</span>
         </h3>

@@ -59,11 +59,11 @@ const MultipleItems = () => {
       <Slider {...settings}>
         {items.map((item, i) => (
           <div key={`${i}${item.text}`} className="">
-            <div className="d-flex flex-column align-items-center mx-7 mb-6 mb-md-12 py-10 py-md-15 border border-4 border-primary rounded-2">
-              <p className="slick-icon fs-10 fs-md-12 text-primary">
+            <div className="d-flex flex-column align-items-center mx-7 mb-6 mb-md-12 py-10 py-md-15 border border-4 border-primary rounded-2 bg-white">
+              <p className="slick-icon fs-11 fs-md-12 text-primary">
                 <i className={`bi ${item.icon}`}></i>
               </p>
-              <p className="fs-7 fs-md-4 mt-md-7 mb-0">{item.text}</p>
+              <p className="fs-7 fs-md-4 mt-8 mt-md-11 mb-0">{item.text}</p>
             </div>
           </div>
         ))}
