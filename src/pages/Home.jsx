@@ -16,7 +16,7 @@ const Home = () => {
 
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-8">
+        <div className="col-10 col-lg-8">
           <div className="my-11 my-md-16 p-7 px-md-9 border border-4 border-primary rounded-2">
             <h3 className="fw-bold fs-5 fs-md-1 text-primary mb-5 text-center">歡迎來到 Habit Piggy！</h3>
             <p className="fs-md-3 mb-3 mb-md-5">這是一個全新的習慣養成工具，專為那些渴望改變生活方式、建立健康習慣的人們設計。</p>
@@ -27,38 +27,16 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="bg-cover my-11 my-md-16 bg-custom">
-      <div className="container">
-        <div className="row h-md-1308 justify-content-between pb-11 pb-mb-16">
-          <div className="col-12 col-md-6">
-            <div className="row justify-content-md-end">
-              <div className="col-10 mb-7 mb-md-11">
-                <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">ABOUT</span></h3>
-                <p className="fs-6 fs-md-3">如何使用「Habit Piggy」？<br />
-                  非常簡單！</p>
-              </div>
-            </div>
-            <div className="position-relative h-351 h-md-100">
-              <img className="about-img rounded-circle img-fluid" src={aboutImage} alt="about" />
-            </div>
-          </div>
-          <div className="col-12 col-md-5">
-            <div className="mt-7 mt-md-0 d-flex flex-column justify-content-end h-md-100">
-              <p className="mb-9 mb-md-16 fs-6 fs-md-2">首先，<br />
-                設定你想養成的目標習慣，無論是每天運動、每天讀書，還是其他任何你希望改變或增加的習慣。</p>
-              <p className="mb-9 mb-md-16 fs-6 fs-md-2">接下來，<br />
-                每當你完成目標習慣，離夢想更進一步就是最好的獎勵。</p>
-              <p className="fs-6 fs-md-2 mb-0">但如果你在某天沒有完成目標怎麼辦？<br />
-                別擔心！我們相信失敗也是學習的機會。當你未能達成目標時，Habit Piggy 會扣除一小筆罰款，以提醒你保持自律。</p>
-            </div>
-          </div>
+    <div className="container">
+      <div className="row justify-content-md-end">
+        <div className="col-10 mb-7 mb-md-11">
+          <h3 className="fw-bold fs-4 fs-md-10 mb-3 mb-md-5"> <span className="title-underline">ABOUT</span></h3>
+            <p className="fs-6 fs-md-3">如何使用「Habit Piggy」？<br />
+              非常簡單！</p>
         </div>
       </div>
     </div>
-
-    <div className="container">
-      <MyParallax />
-    </div>
+    <MyParallax />
 
     <div className="bg-light">
       <div className="container">
@@ -184,7 +162,7 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="text-center bg-cover bg-custom vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="text-center bg-custom vh-100 d-flex flex-column justify-content-center align-items-center">
       <h3 className="fw-bold fs-4 fs-md-10 mb-7 mb-md-11">
         <span className="title-underline">立即開始建立好習慣！</span>
         </h3>

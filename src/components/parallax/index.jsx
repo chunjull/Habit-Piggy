@@ -1,11 +1,18 @@
 import React from 'react';
-import imageOne from './imageOne';
+import ImageOne from './imageOne';
+import ImageTwo from './imageTwo';
+import ImageThree from './imageThree';
+import Box from './Box';
 
 const MyParallax = () => {
-  return(
-    <>
-    <imageOne />
-    </>
+  return (
+    <div>
+      <ImageOne />
+      <Box />
+      <ImageTwo />
+      <Box />
+      <ImageThree />
+    </div>
   );
 };
 
