@@ -1,14 +1,6 @@
 import { Link } from 'react-router-dom';
 import Icon from '../../assets/images/icon.png';
 
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
-navLinks.forEach((l) => {
-  l.addEventListener('click', () => { bsCollapse.toggle() })
-})
-
-
 const Header = () => {
   return (
     <header className="header">
