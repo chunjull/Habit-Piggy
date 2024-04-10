@@ -1,48 +1,39 @@
-# 網頁切版直播班 Vite 範例
+# Habit Piggy 習慣養成工具
+## 創作理念
+  為了養成良好的生活習慣，我們參考並嘗試過種許多種培養習慣的實踐方法。
+  最後，我們選擇融合日韓追星粉絲的「偶像存錢術」和書籍《零阻力改變：華頓商學院爆紅行為科學課》提到的「承諾機制」，提出創新的習慣培養工具。讓自己在培養習慣的同時，增加「沒有做到就要強迫存錢」的制約條件，期許自己最終能夠獲得好習慣，或者大量積蓄。
 
-## Node.js 版本
-  - 專案的 Node.js 版本需為 v16 以上
-  - 查看自己版本指令：`node -v`
+## 關於 Habit Piggy
+  Habit Piggy 是一款結合了「養成習慣」與「罰款存錢」的訂閱制習慣養成工具。
+  我們為「培養習慣」添加了一點樂趣元素。
+  在 Habit Piggy，你可以在追求目標的同時感到即刻的滿足，並且透過「未達成則罰款」的承諾機制，讓你押上金錢做賭注，以刺激你達成目標！
+  希望藉由這樣的遊戲化設計，可以讓使用者透過「Habit Piggy」培養習慣。
 
+## 設計概念
+  我們選擇使用象徵活力、積極、明亮的金盞花色系，搭配活潑、富有休閒感的 Lobster Two 字體，營造出讓平台用戶即使正在培養乏味的生活習慣，也能在開啟 Habit Piggy 時，眼睛為之一亮、振奮精神的氛圍。
+  
+  在畫面配置上，因應首頁和功能頁的用途，設計了兩種版型： 
+  1. 依首頁為主的一般版型；
+  2. 依功能頁為主的側欄版型。
 
-## 指令列表
-- `npm install` - 初次下載該範例專案後，需要使用 npm install 來安裝套件
-- `npm run dev` - 執行開發模式
-  - 若沒有自動開啟瀏覽器，可嘗試手動在瀏覽器上輸入
-    `http://localhost:5173/<專案名稱>/pages/index.html`
-- `npm run build` - 執行編譯模式（不會開啟瀏覽器）
-- `npm run deploy` - 自動化部署
+## 使用技術
 
-## 資料夾結構
-  - assets # 靜態資源放置處
-    - images # 圖片放置處
-    - scss # SCSS 的樣式放置處
+### 設計
+- Figma
 
-  - layout # ejs 模板放置處
-  - pages # 頁面放置處
+### 開發
+- Visual Studio Code
+- Vite
+- Bootstrap 5
+- Sass
+- React
 
-- JavaScript 程式碼可寫在 main.js 檔案
+### 溝通
+- git
+- GitHub
 
-### 注意事項
-- 已將 pages 資料夾內的 index.html 預設為首頁，建議不要任意修改 index.html 的檔案名稱
-- .gitignore 檔案是用來忽略掉不該上傳到 GitHub 的檔案（例如 node_modules），請不要移除 .gitignore
-
-## 開發模式的監聽
-vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使用 `Live Sass Compiler` 的 `Watch SCSS` 功能
-
-
-## 部署 gh-pages 流程說明
-### Windows 版本
-1. 在 GitHub 建立一個新的 Repository
-
-2. 部署前請務必先將原始碼上傳到 GitHub Repository 也就是初始化 GitHub，因此通常第一步驟會在專案終端機輸入以下指令
-```cmd
-git init # 若已經初始化過就可以不用輸入
-git add .
-git commit -m 'first commit'
-git branch -M main
-git remote add origin [GitHub Repositories Url]
-git push -u origin main // 僅限第一次輸入，往後只需要輸入 git push
-```
-
-3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
+## 專案團隊
+- rueee(Juby)
+- KuoMin
+- Ray
+- Emily
